@@ -1,0 +1,9 @@
+----------------------------------------
+BASELINE: 1 Process (1x1 grid)
+(0) Number of iterations : 2355
+----------------------------------------
+TEST: 4 Processes (2x2 grid)
+(1) Number of iterations : 2370
+(0) Number of iterations : 2370
+(3) Number of iterations : 2370
+(2) Number of iterations : 2370

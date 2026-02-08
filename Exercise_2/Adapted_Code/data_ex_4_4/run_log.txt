@@ -1,0 +1,46 @@
+Compiling...
+make: Nothing to be done for 'all'.
+
+[2x2] Generating GridDist in data_ex_4_4/case_2x2_N200 ...
+Writing file 0 1 2 3 map
+
+[2x2] Reading neighbour counts from input files...
+[2x2] Optional solver run...
+(0) Time Breakdown: Calc: 0.1300s | Exchange: 0.0019s | Global: 0.0009s | Idle: 0.0032s
+Number of iterations : 274
+(0) Elapsed Wtime:       0.182933 s ( 88.1% CPU)
+(1) Time Breakdown: Calc: 0.1290s | Exchange: 0.0030s | Global: 0.0009s | Idle: 0.0027s
+(1) Elapsed Wtime:       0.182550 s ( 88.8% CPU)
+(2) Time Breakdown: Calc: 0.1291s | Exchange: 0.0041s | Global: 0.0008s | Idle: 0.0018s
+(2) Elapsed Wtime:       0.166498 s ( 97.4% CPU)
+(3) Time Breakdown: Calc: 0.1288s | Exchange: 0.0039s | Global: 0.0008s | Idle: 0.0023s
+(3) Elapsed Wtime:       0.164890 s ( 98.2% CPU)
+
+[3x3] Generating GridDist in data_ex_4_4/case_3x3_N200 ...
+Writing file 0 1 2 3 4 5 6 7 8 map
+
+[3x3] Reading neighbour counts from input files...
+[3x3] Optional solver run...
+(2) Time Breakdown: Calc: 0.0572s | Exchange: 0.0053s | Global: 0.0292s | Idle: 0.0491s
+(2) Elapsed Wtime:       0.244385 s ( 99.1% CPU)
+(8) Time Breakdown: Calc: 0.0589s | Exchange: 0.0385s | Global: 0.0290s | Idle: 0.0136s
+(8) Elapsed Wtime:       0.242536 s ( 98.1% CPU)
+(3) Time Breakdown: Calc: 0.0565s | Exchange: 0.0063s | Global: 0.0026s | Idle: 0.0750s
+(3) Elapsed Wtime:       0.312925 s ( 77.4% CPU)
+(1) Time Breakdown: Calc: 0.0565s | Exchange: 0.0039s | Global: 0.0027s | Idle: 0.0774s
+(1) Elapsed Wtime:       0.351351 s ( 68.9% CPU)
+(0) Time Breakdown: Calc: 0.0564s | Exchange: 0.0018s | Global: 0.0015s | Idle: 0.0812s
+Number of iterations : 274
+(0) Elapsed Wtime:       0.296267 s ( 80.8% CPU)
+(7) Time Breakdown: Calc: 0.0574s | Exchange: 0.0392s | Global: 0.0026s | Idle: 0.0414s
+(7) Elapsed Wtime:       0.282741 s ( 85.4% CPU)
+(5) Time Breakdown: Calc: 0.0574s | Exchange: 0.0373s | Global: 0.0026s | Idle: 0.0433s
+(5) Elapsed Wtime:       0.343083 s ( 70.2% CPU)
+(6) Time Breakdown: Calc: 0.0572s | Exchange: 0.0092s | Global: 0.0291s | Idle: 0.0350s
+(6) Elapsed Wtime:       0.268399 s ( 86.2% CPU)
+(4) Time Breakdown: Calc: 0.0598s | Exchange: 0.0077s | Global: 0.0294s | Idle: 0.0335s
+(4) Elapsed Wtime:       0.244258 s ( 94.7% CPU)
+
+Done.
+Neighbour counts written to: data_ex_4_4/neighbors_2x2_and_3x3.txt
+Logs written to: data_ex_4_4/run_log.txt

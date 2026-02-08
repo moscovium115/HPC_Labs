@@ -1,0 +1,23 @@
+==================================================
+Neighbour counts for process grid 2x2 (P=4), grid 200x200
+Case directory: data_ex_4_4/case_2x2_N200
+==================================================
+rank  0: Neighbours = 2
+rank  1: Neighbours = 3
+rank  2: Neighbours = 3
+rank  3: Neighbours = 2
+
+==================================================
+Neighbour counts for process grid 3x3 (P=9), grid 200x200
+Case directory: data_ex_4_4/case_3x3_N200
+==================================================
+rank  0: Neighbours = 2
+rank  1: Neighbours = 4
+rank  2: Neighbours = 3
+rank  3: Neighbours = 4
+rank  4: Neighbours = 6
+rank  5: Neighbours = 4
+rank  6: Neighbours = 3
+rank  7: Neighbours = 4
+rank  8: Neighbours = 2
+

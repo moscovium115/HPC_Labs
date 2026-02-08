@@ -1,0 +1,67 @@
+==================================================
+Exercise 4.2 FEM timing breakdown (P=4, grid=2x2)
+Output TXT: data_ex_4_2/ex4_2_timebreakdown.txt
+Output CSV: data_ex_4_2/ex4_2_timebreakdown.csv
+==================================================
+
+Compiling...
+make: Nothing to be done for 'all'.
+
+----------------------------------------
+Case: 2x2, grid 100x100
+Case directory: data_ex_4_2/case_2x2_N100
+----------------------------------------
+Generating GridDist...
+Writing file 0 1 2 3 map
+
+Running MPI_Fempois...
+(3) Time Breakdown: Calc: 0.0172s | Exchange: 0.0017s | Global: 0.0003s | Idle: 0.0008s
+(3) Elapsed Wtime:       0.035412 s ( 77.3% CPU)
+(2) Time Breakdown: Calc: 0.0170s | Exchange: 0.0017s | Global: 0.0004s | Idle: 0.0008s
+(2) Elapsed Wtime:       0.028866 s ( 94.7% CPU)
+(1) Time Breakdown: Calc: 0.0171s | Exchange: 0.0013s | Global: 0.0004s | Idle: 0.0012s
+(1) Elapsed Wtime:       0.028944 s ( 94.6% CPU)
+(0) Time Breakdown: Calc: 0.0173s | Exchange: 0.0007s | Global: 0.0004s | Idle: 0.0016s
+Number of iterations : 141
+(0) Elapsed Wtime:       0.028583 s ( 93.8% CPU)
+
+----------------------------------------
+Case: 2x2, grid 200x200
+Case directory: data_ex_4_2/case_2x2_N200
+----------------------------------------
+Generating GridDist...
+Writing file 0 1 2 3 map
+
+Running MPI_Fempois...
+(1) Time Breakdown: Calc: 0.1378s | Exchange: 0.0035s | Global: 0.0010s | Idle: 0.0052s
+(1) Elapsed Wtime:       0.175886 s ( 98.9% CPU)
+(2) Time Breakdown: Calc: 0.1369s | Exchange: 0.0048s | Global: 0.0008s | Idle: 0.0049s
+(2) Elapsed Wtime:       0.187385 s ( 92.8% CPU)
+(3) Time Breakdown: Calc: 0.1386s | Exchange: 0.0046s | Global: 0.0008s | Idle: 0.0036s
+(3) Elapsed Wtime:       0.175953 s ( 98.8% CPU)
+(0) Time Breakdown: Calc: 0.1403s | Exchange: 0.0022s | Global: 0.0009s | Idle: 0.0042s
+Number of iterations : 274
+(0) Elapsed Wtime:       0.189445 s ( 91.7% CPU)
+
+----------------------------------------
+Case: 2x2, grid 400x400
+Case directory: data_ex_4_2/case_2x2_N400
+----------------------------------------
+Generating GridDist...
+Writing file 0 1 2 3 map
+
+Running MPI_Fempois...
+(1) Time Breakdown: Calc: 1.2839s | Exchange: 0.0079s | Global: 0.0023s | Idle: 0.0109s
+(1) Elapsed Wtime:       1.415618 s ( 99.3% CPU)
+(2) Time Breakdown: Calc: 1.2759s | Exchange: 0.0109s | Global: 0.0018s | Idle: 0.0162s
+(2) Elapsed Wtime:       1.415309 s ( 99.3% CPU)
+(0) Time Breakdown: Calc: 1.2387s | Exchange: 0.0051s | Global: 0.0021s | Idle: 0.0589s
+Number of iterations : 529
+(0) Elapsed Wtime:       1.415254 s ( 99.3% CPU)
+(3) Time Breakdown: Calc: 1.2814s | Exchange: 0.0104s | Global: 0.0019s | Idle: 0.0112s
+(3) Elapsed Wtime:       1.445625 s ( 97.2% CPU)
+
+==================================================
+Done.
+CSV written to: data_ex_4_2/ex4_2_timebreakdown.csv
+==================================================

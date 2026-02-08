@@ -1,0 +1,72 @@
+========================================
+ RESULTS FOR P = 1 
+========================================
+NRA=1000, NCA=1000, NCB=1000, P=1, Time=3.406050 s
+Sample values: c[0][0]=0.0, c[1][1]=333333000.0, c[2][2]=667665000.0
+Verifying results...
+SUCCESS: Matrix multiplication verified correctly!
+
+
+========================================
+ RESULTS FOR P = 2 
+========================================
+NRA=1000, NCA=1000, NCB=1000, P=2, Time=1.908831 s
+Sample values: c[0][0]=0.0, c[1][1]=333333000.0, c[2][2]=667665000.0
+Verifying results...
+SUCCESS: Matrix multiplication verified correctly!
+
+
+========================================
+ RESULTS FOR P = 8 
+========================================
+NRA=1000, NCA=1000, NCB=1000, P=8, Time=0.676035 s
+Sample values: c[0][0]=0.0, c[1][1]=333333000.0, c[2][2]=667665000.0
+Verifying results...
+SUCCESS: Matrix multiplication verified correctly!
+
+
+========================================
+ RESULTS FOR P = 24 
+========================================
+NRA=1000, NCA=1000, NCB=1000, P=24, Time=0.394560 s
+Sample values: c[0][0]=0.0, c[1][1]=333333000.0, c[2][2]=667665000.0
+Verifying results...
+SUCCESS: Matrix multiplication verified correctly!
+
+
+========================================
+ RESULTS FOR P = 40 
+========================================
+NRA=1000, NCA=1000, NCB=1000, P=40, Time=0.175058 s
+Sample values: c[0][0]=0.0, c[1][1]=333333000.0, c[2][2]=667665000.0
+Verifying results...
+SUCCESS: Matrix multiplication verified correctly!
+
+
+========================================
+ RESULTS FOR P = 41 
+========================================
+NRA=1000, NCA=1000, NCB=1000, P=41, Time=0.931387 s
+Sample values: c[0][0]=0.0, c[1][1]=333333000.0, c[2][2]=667665000.0
+Verifying results...
+SUCCESS: Matrix multiplication verified correctly!
+
+
+========================================
+ RESULTS FOR P = 48 
+========================================
+NRA=1000, NCA=1000, NCB=1000, P=48, Time=0.677614 s
+Sample values: c[0][0]=0.0, c[1][1]=333333000.0, c[2][2]=667665000.0
+Verifying results...
+SUCCESS: Matrix multiplication verified correctly!
+
+
+========================================
+ RESULTS FOR P = 64 
+========================================
+NRA=1000, NCA=1000, NCB=1000, P=64, Time=0.165583 s
+Sample values: c[0][0]=0.0, c[1][1]=333333000.0, c[2][2]=667665000.0
+Verifying results...
+SUCCESS: Matrix multiplication verified correctly!
+
+

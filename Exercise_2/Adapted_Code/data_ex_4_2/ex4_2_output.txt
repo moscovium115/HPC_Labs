@@ -1,0 +1,144 @@
+Compiling...
+make: Nothing to be done for 'all'.
+
+=======================================================================
+Exercise 4.2 timing runs (FEM Poisson)
+Output: data_ex_4_2/ex4_2_output.txt
+=======================================================================
+
+##############################
+Process grid: 2x2 (np=4)
+##############################
+
+----------------------------------------
+Running Grid: 100x100
+----------------------------------------
+Generating FEM partition/input files...
+Writing file 0 1 2 3 map
+Running solver (intra-node)...
+(0) Time Breakdown: Calc: 0.0166s | Exchange: 0.0008s | Global: 0.0005s | Idle: 0.0018s
+Number of iterations : 141
+(0) Elapsed Wtime:       0.053302 s ( 49.2% CPU)
+(1) Time Breakdown: Calc: 0.0165s | Exchange: 0.0014s | Global: 0.0005s | Idle: 0.0012s
+(1) Elapsed Wtime:       0.060334 s ( 45.4% CPU)
+(2) Time Breakdown: Calc: 0.0166s | Exchange: 0.0018s | Global: 0.0005s | Idle: 0.0008s
+(2) Elapsed Wtime:       0.068800 s ( 39.9% CPU)
+(3) Time Breakdown: Calc: 0.0165s | Exchange: 0.0018s | Global: 0.0004s | Idle: 0.0007s
+(3) Elapsed Wtime:       0.077361 s ( 35.2% CPU)
+
+----------------------------------------
+Running Grid: 200x200
+----------------------------------------
+Generating FEM partition/input files...
+Writing file 0 1 2 3 map
+Running solver (intra-node)...
+(0) Time Breakdown: Calc: 0.1319s | Exchange: 0.0019s | Global: 0.0008s | Idle: 0.0040s
+Number of iterations : 274
+(0) Elapsed Wtime:       0.185117 s ( 88.6% CPU)
+(1) Time Breakdown: Calc: 0.1321s | Exchange: 0.0032s | Global: 0.0008s | Idle: 0.0021s
+(1) Elapsed Wtime:       0.194891 s ( 84.3% CPU)
+(3) Time Breakdown: Calc: 0.1323s | Exchange: 0.0040s | Global: 0.0007s | Idle: 0.0018s
+(3) Elapsed Wtime:       0.176318 s ( 93.3% CPU)
+(2) Time Breakdown: Calc: 0.1317s | Exchange: 0.0043s | Global: 0.0007s | Idle: 0.0017s
+(2) Elapsed Wtime:       0.197604 s ( 83.2% CPU)
+
+----------------------------------------
+Running Grid: 400x400
+----------------------------------------
+Generating FEM partition/input files...
+Writing file 0 1 2 3 map
+Running solver (intra-node)...
+(0) Time Breakdown: Calc: 1.1940s | Exchange: 0.0047s | Global: 0.0020s | Idle: 0.0142s
+Number of iterations : 529
+(0) Elapsed Wtime:       1.324381 s ( 99.3% CPU)
+(2) Time Breakdown: Calc: 1.1913s | Exchange: 0.0097s | Global: 0.0018s | Idle: 0.0122s
+(2) Elapsed Wtime:       1.324844 s ( 99.3% CPU)
+(1) Time Breakdown: Calc: 1.1982s | Exchange: 0.0070s | Global: 0.0021s | Idle: 0.0076s
+(1) Elapsed Wtime:       1.324725 s ( 99.3% CPU)
+(3) Time Breakdown: Calc: 1.1970s | Exchange: 0.0094s | Global: 0.0017s | Idle: 0.0074s
+(3) Elapsed Wtime:       1.324384 s ( 99.4% CPU)
+
+##############################
+Process grid: 3x3 (np=9)
+##############################
+
+----------------------------------------
+Running Grid: 100x100
+----------------------------------------
+Generating FEM partition/input files...
+Writing file 0 1 2 3 4 5 6 7 8 map
+Running solver (inter-node)...
+(2) Time Breakdown: Calc: 0.0073s | Exchange: 0.0019s | Global: 0.0287s | Idle: 0.0398s
+(2) Elapsed Wtime:       0.317406 s ( 65.8% CPU)
+(8) Time Breakdown: Calc: 0.0075s | Exchange: 0.0397s | Global: 0.0288s | Idle: 0.0557s
+(8) Elapsed Wtime:       0.343459 s ( 74.9% CPU)
+(3) Time Breakdown: Calc: 0.0075s | Exchange: 0.0021s | Global: 0.0013s | Idle: 0.1244s
+(3) Elapsed Wtime:       0.276257 s ( 96.2% CPU)
+(1) Time Breakdown: Calc: 0.0073s | Exchange: 0.0014s | Global: 0.0013s | Idle: 0.1215s
+(1) Elapsed Wtime:       0.276440 s ( 94.7% CPU)
+(7) Time Breakdown: Calc: 0.0075s | Exchange: 0.0401s | Global: 0.0013s | Idle: 0.0793s
+(7) Elapsed Wtime:       0.276761 s ( 93.1% CPU)
+(0) Time Breakdown: Calc: 0.0071s | Exchange: 0.0005s | Global: 0.0005s | Idle: 0.1272s
+Number of iterations : 141
+(0) Elapsed Wtime:       0.319286 s ( 61.0% CPU)
+(6) Time Breakdown: Calc: 0.0074s | Exchange: 0.0030s | Global: 0.0287s | Idle: 0.0961s
+(6) Elapsed Wtime:       0.377859 s ( 70.1% CPU)
+(5) Time Breakdown: Calc: 0.0075s | Exchange: 0.0392s | Global: 0.0013s | Idle: 0.0434s
+(5) Elapsed Wtime:       0.275883 s ( 80.2% CPU)
+(4) Time Breakdown: Calc: 0.0077s | Exchange: 0.0026s | Global: 0.0290s | Idle: 0.0839s
+(4) Elapsed Wtime:       0.377877 s ( 66.9% CPU)
+
+----------------------------------------
+Running Grid: 200x200
+----------------------------------------
+Generating FEM partition/input files...
+Writing file 0 1 2 3 4 5 6 7 8 map
+Running solver (inter-node)...
+(2) Time Breakdown: Calc: 0.0576s | Exchange: 0.0041s | Global: 0.0300s | Idle: 0.1381s
+(2) Elapsed Wtime:       0.348745 s ( 94.8% CPU)
+(8) Time Breakdown: Calc: 0.0585s | Exchange: 0.0442s | Global: 0.0298s | Idle: 0.0973s
+(8) Elapsed Wtime:       0.340610 s ( 95.6% CPU)
+(3) Time Breakdown: Calc: 0.0584s | Exchange: 0.0047s | Global: 0.0026s | Idle: 0.1639s
+(3) Elapsed Wtime:       0.342687 s ( 96.4% CPU)
+(1) Time Breakdown: Calc: 0.0582s | Exchange: 0.0031s | Global: 0.0026s | Idle: 0.0733s
+(1) Elapsed Wtime:       0.342865 s ( 69.5% CPU)
+(6) Time Breakdown: Calc: 0.0573s | Exchange: 0.0066s | Global: 0.0299s | Idle: 0.1358s
+(6) Elapsed Wtime:       0.339018 s ( 97.3% CPU)
+(7) Time Breakdown: Calc: 0.0593s | Exchange: 0.0451s | Global: 0.0026s | Idle: 0.1227s
+(7) Elapsed Wtime:       0.342707 s ( 96.2% CPU)
+(0) Time Breakdown: Calc: 0.0564s | Exchange: 0.0014s | Global: 0.0010s | Idle: 0.1709s
+Number of iterations : 274
+(0) Elapsed Wtime:       0.341611 s ( 90.9% CPU)
+(4) Time Breakdown: Calc: 0.0602s | Exchange: 0.0058s | Global: 0.0303s | Idle: 0.1308s
+(4) Elapsed Wtime:       0.348834 s ( 93.8% CPU)
+(5) Time Breakdown: Calc: 0.0590s | Exchange: 0.0434s | Global: 0.0026s | Idle: 0.1176s
+(5) Elapsed Wtime:       0.342674 s ( 94.3% CPU)
+
+----------------------------------------
+Running Grid: 400x400
+----------------------------------------
+Generating FEM partition/input files...
+Writing file 0 1 2 3 4 5 6 7 8 map
+Running solver (inter-node)...
+(3) Time Breakdown: Calc: 0.5855s | Exchange: 0.0120s | Global: 0.0060s | Idle: 0.0916s
+(3) Elapsed Wtime:       0.839982 s ( 98.1% CPU)
+(8) Time Breakdown: Calc: 0.4493s | Exchange: 0.0572s | Global: 0.0349s | Idle: 0.1540s
+(8) Elapsed Wtime:       0.823817 s ( 99.0% CPU)
+(1) Time Breakdown: Calc: 0.5797s | Exchange: 0.0080s | Global: 0.0063s | Idle: 0.1012s
+(1) Elapsed Wtime:       0.830171 s ( 99.2% CPU)
+(4) Time Breakdown: Calc: 0.5888s | Exchange: 0.0151s | Global: 0.0364s | Idle: 0.0543s
+(4) Elapsed Wtime:       0.851689 s ( 96.6% CPU)
+(5) Time Breakdown: Calc: 0.5876s | Exchange: 0.0550s | Global: 0.0063s | Idle: 0.0465s
+(5) Elapsed Wtime:       0.852098 s ( 96.6% CPU)
+(7) Time Breakdown: Calc: 0.5841s | Exchange: 0.0585s | Global: 0.0063s | Idle: 0.0460s
+(7) Elapsed Wtime:       0.838290 s ( 98.1% CPU)
+(2) Time Breakdown: Calc: 0.5780s | Exchange: 0.0104s | Global: 0.0353s | Idle: 0.0716s
+(2) Elapsed Wtime:       0.830227 s ( 99.2% CPU)
+(0) Time Breakdown: Calc: 0.5738s | Exchange: 0.0036s | Global: 0.0027s | Idle: 0.1153s
+Number of iterations : 529
+(0) Elapsed Wtime:       0.832928 s ( 98.2% CPU)
+(6) Time Breakdown: Calc: 0.5759s | Exchange: 0.0181s | Global: 0.0360s | Idle: 0.0652s
+(6) Elapsed Wtime:       0.843832 s ( 97.5% CPU)
+
+=======================================================================
+Done. All results saved to data_ex_4_2/ex4_2_output.txt

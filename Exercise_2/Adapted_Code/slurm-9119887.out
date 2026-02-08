@@ -1,0 +1,134 @@
+==================================================
+Exercise 4.5 FEM measurements
+TXT: data_ex_4_5/ex4_5_measurements.txt
+CSV: data_ex_4_5/ex4_5_measurements.csv
+==================================================
+
+Compiling...
+make: Nothing to be done for 'all'.
+
+----------------------------------------
+Case: part=A_fixedP4, P=4 (2x2), grid=50x50
+Dir:  data_ex_4_5/case_A_fixedP4_P4_2x2_N50
+----------------------------------------
+Generating GridDist...
+Writing file 0 1 2 3 map
+
+Running MPI_Fempois...
+(1) Time Breakdown: Calc: 0.0022s | Exchange: 0.0006s | Global: 0.0002s | Idle: 0.0005s
+(1) Elapsed Wtime:       0.007997 s ( 82.4% CPU)
+(2) Time Breakdown: Calc: 0.0022s | Exchange: 0.0008s | Global: 0.0002s | Idle: 0.0002s
+(2) Elapsed Wtime:       0.007794 s ( 83.4% CPU)
+(0) Time Breakdown: Calc: 0.0022s | Exchange: 0.0003s | Global: 0.0002s | Idle: 0.0010s
+Number of iterations : 74
+(0) Elapsed Wtime:       0.008100 s ( 71.7% CPU)
+(3) Time Breakdown: Calc: 0.0022s | Exchange: 0.0008s | Global: 0.0002s | Idle: 0.0005s
+(3) Elapsed Wtime:       0.007622 s ( 87.2% CPU)
+
+WARNING: Missing rank-0 breakdown line in data_ex_4_5/case_A_fixedP4_P4_2x2_N50/run.log
+----------------------------------------
+Case: part=A_fixedP4, P=4 (2x2), grid=100x100
+Dir:  data_ex_4_5/case_A_fixedP4_P4_2x2_N100
+----------------------------------------
+Generating GridDist...
+Writing file 0 1 2 3 map
+
+Running MPI_Fempois...
+(0) Time Breakdown: Calc: 0.0165s | Exchange: 0.0007s | Global: 0.0004s | Idle: 0.0017s
+Number of iterations : 141
+(0) Elapsed Wtime:       0.038957 s ( 66.8% CPU)
+(1) Time Breakdown: Calc: 0.0165s | Exchange: 0.0013s | Global: 0.0004s | Idle: 0.0011s
+(1) Elapsed Wtime:       0.038930 s ( 67.6% CPU)
+(2) Time Breakdown: Calc: 0.0165s | Exchange: 0.0018s | Global: 0.0004s | Idle: 0.0005s
+(2) Elapsed Wtime:       0.039049 s ( 67.2% CPU)
+(3) Time Breakdown: Calc: 0.0164s | Exchange: 0.0017s | Global: 0.0003s | Idle: 0.0008s
+(3) Elapsed Wtime:       0.027756 s ( 94.3% CPU)
+
+WARNING: Missing rank-0 breakdown line in data_ex_4_5/case_A_fixedP4_P4_2x2_N100/run.log
+----------------------------------------
+Case: part=A_fixedP4, P=4 (2x2), grid=150x150
+Dir:  data_ex_4_5/case_A_fixedP4_P4_2x2_N150
+----------------------------------------
+Generating GridDist...
+Writing file 0 1 2 3 map
+
+Running MPI_Fempois...
+(0) Time Breakdown: Calc: 0.0552s | Exchange: 0.0013s | Global: 0.0006s | Idle: 0.0086s
+Number of iterations : 208
+(0) Elapsed Wtime:       0.083128 s ( 96.2% CPU)
+(1) Time Breakdown: Calc: 0.0552s | Exchange: 0.0022s | Global: 0.0006s | Idle: 0.0015s
+(1) Elapsed Wtime:       0.083443 s ( 89.9% CPU)
+(2) Time Breakdown: Calc: 0.0552s | Exchange: 0.0029s | Global: 0.0006s | Idle: 0.0070s
+(2) Elapsed Wtime:       0.083332 s ( 97.4% CPU)
+(3) Time Breakdown: Calc: 0.0553s | Exchange: 0.0028s | Global: 0.0005s | Idle: 0.0070s
+(3) Elapsed Wtime:       0.083278 s ( 97.3% CPU)
+
+WARNING: Missing rank-0 breakdown line in data_ex_4_5/case_A_fixedP4_P4_2x2_N150/run.log
+----------------------------------------
+Case: part=A_fixedP4, P=4 (2x2), grid=200x200
+Dir:  data_ex_4_5/case_A_fixedP4_P4_2x2_N200
+----------------------------------------
+Generating GridDist...
+Writing file 0 1 2 3 map
+
+Running MPI_Fempois...
+(0) Time Breakdown: Calc: 0.1314s | Exchange: 0.0019s | Global: 0.0008s | Idle: 0.0037s
+Number of iterations : 274
+(0) Elapsed Wtime:       0.165928 s ( 98.2% CPU)
+(1) Time Breakdown: Calc: 0.1310s | Exchange: 0.0031s | Global: 0.0008s | Idle: 0.0028s
+(1) Elapsed Wtime:       0.165760 s ( 98.5% CPU)
+(2) Time Breakdown: Calc: 0.1309s | Exchange: 0.0041s | Global: 0.0007s | Idle: 0.0021s
+(2) Elapsed Wtime:       0.176063 s ( 92.9% CPU)
+(3) Time Breakdown: Calc: 0.1319s | Exchange: 0.0039s | Global: 0.0007s | Idle: 0.0012s
+(3) Elapsed Wtime:       0.176037 s ( 92.8% CPU)
+
+WARNING: Missing rank-0 breakdown line in data_ex_4_5/case_A_fixedP4_P4_2x2_N200/run.log
+----------------------------------------
+Case: part=A_fixedP4, P=4 (2x2), grid=300x300
+Dir:  data_ex_4_5/case_A_fixedP4_P4_2x2_N300
+----------------------------------------
+Generating GridDist...
+Writing file 0 1 2 3 map
+
+Running MPI_Fempois...
+(0) Time Breakdown: Calc: 0.4914s | Exchange: 0.0035s | Global: 0.0014s | Idle: 0.0053s
+Number of iterations : 402
+(0) Elapsed Wtime:       0.564068 s ( 99.0% CPU)
+(1) Time Breakdown: Calc: 0.4857s | Exchange: 0.0056s | Global: 0.0015s | Idle: 0.0092s
+(1) Elapsed Wtime:       0.563813 s ( 99.2% CPU)
+(3) Time Breakdown: Calc: 0.4899s | Exchange: 0.0072s | Global: 0.0012s | Idle: 0.0036s
+(3) Elapsed Wtime:       0.564121 s ( 99.0% CPU)
+(2) Time Breakdown: Calc: 0.4875s | Exchange: 0.0076s | Global: 0.0013s | Idle: 0.0056s
+(2) Elapsed Wtime:       0.564071 s ( 99.1% CPU)
+
+WARNING: Missing rank-0 breakdown line in data_ex_4_5/case_A_fixedP4_P4_2x2_N300/run.log
+----------------------------------------
+Case: part=A_fixedP4, P=4 (2x2), grid=400x400
+Dir:  data_ex_4_5/case_A_fixedP4_P4_2x2_N400
+----------------------------------------
+Generating GridDist...
+Writing file 0 1 2 3 map
+
+Running MPI_Fempois...
+(2) Time Breakdown: Calc: 1.2121s | Exchange: 0.0103s | Global: 0.0018s | Idle: 0.0381s
+(2) Elapsed Wtime:       1.370998 s ( 99.4% CPU)
+(0) Time Breakdown: Calc: 1.2189s | Exchange: 0.0048s | Global: 0.0020s | Idle: 0.0307s
+Number of iterations : 529
+(0) Elapsed Wtime:       1.371249 s ( 98.9% CPU)
+(1) Time Breakdown: Calc: 1.2120s | Exchange: 0.0074s | Global: 0.0023s | Idle: 0.0334s
+(1) Elapsed Wtime:       1.371498 s ( 98.8% CPU)
+(3) Time Breakdown: Calc: 1.2207s | Exchange: 0.0098s | Global: 0.0018s | Idle: 0.0193s
+(3) Elapsed Wtime:       1.370829 s ( 98.6% CPU)
+
+WARNING: Missing rank-0 breakdown line in data_ex_4_5/case_A_fixedP4_P4_2x2_N400/run.log
+----------------------------------------
+Case: part=B_fixedN1000, P=1 (1x1), grid=1000x1000
+Dir:  data_ex_4_5/case_B_fixedN1000_P1_1x1_N1000
+----------------------------------------
+Generating GridDist...
+Writing file 0 map
+
+Running MPI_Fempois...
+srun: Job step aborted: Waiting up to 122 seconds for job step to finish.
+slurmstepd: error: *** STEP 9119887.6 ON cmp124 CANCELLED AT 2026-02-08T14:52:11 ***
+slurmstepd: error: *** JOB 9119887 ON cmp124 CANCELLED AT 2026-02-08T14:52:11 ***

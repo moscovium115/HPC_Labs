@@ -1,0 +1,3431 @@
+==========================================
+STARTING EXPERIMENTS WITH RECOMPILATION
+==========================================
+
+##########################################
+SETTING CONSTANT BLOCK_SIZE = 32
+##########################################
+Recompiling for Block Size 32...
+nvcc warning : Support for offline compilation for architectures prior to '<compute/sm/lto>_75' will be removed in a future release (Use -Wno-deprecated-gpu-targets to suppress warning).
+
+>>> RUNNING: Matrix Size 50 | Block Size 32
+------------------------------------------
+This GPU has major architecture 8, minor 0 
+Using block size 32 
+Matrix size 50 X 50 
+
+================ Test 1 / 10 ================
+Power method in CPU starts
+*************************************
+*************************************
+CPU: run time = 0.000009 secs.
+Power method in CPU is finished
+
+--- Starting Unified Memory Version ---
+GPU Unified (Compute Only): 0.002478 secs.
+GPU Unified (Total + Mem): 0.090603 secs.
+Final Lambda: 2505.772461
+
+--- Starting Shared Memory Version ---
+GPU Shared (Compute Only): 0.000473 secs.
+GPU Shared (Total + Mem):  0.000581 secs.
+Final Lambda: 2505.772461
+
+--- Starting Global Memory Version ---
+GPU Global (Compute Only): 0.000454 secs.
+GPU Global (Total + Mem):  0.000531 secs.
+Final Lambda: 2505.772461
+
+================ Test 2 / 10 ================
+Power method in CPU starts
+*************************************
+*************************************
+CPU: run time = 0.000008 secs.
+Power method in CPU is finished
+
+--- Starting Unified Memory Version ---
+GPU Unified (Compute Only): 0.000557 secs.
+GPU Unified (Total + Mem): 0.000661 secs.
+Final Lambda: 2505.772461
+
+--- Starting Shared Memory Version ---
+GPU Shared (Compute Only): 0.000471 secs.
+GPU Shared (Total + Mem):  0.000550 secs.
+Final Lambda: 2505.772461
+
+--- Starting Global Memory Version ---
+GPU Global (Compute Only): 0.000445 secs.
+GPU Global (Total + Mem):  0.000520 secs.
+Final Lambda: 2505.772461
+
+================ Test 3 / 10 ================
+Power method in CPU starts
+*************************************
+*************************************
+CPU: run time = 0.000008 secs.
+Power method in CPU is finished
+
+--- Starting Unified Memory Version ---
+GPU Unified (Compute Only): 0.000557 secs.
+GPU Unified (Total + Mem): 0.000652 secs.
+Final Lambda: 2505.772461
+
+--- Starting Shared Memory Version ---
+GPU Shared (Compute Only): 0.000477 secs.
+GPU Shared (Total + Mem):  0.000553 secs.
+Final Lambda: 2505.772461
+
+--- Starting Global Memory Version ---
+GPU Global (Compute Only): 0.000440 secs.
+GPU Global (Total + Mem):  0.000515 secs.
+Final Lambda: 2505.772461
+
+================ Test 4 / 10 ================
+Power method in CPU starts
+*************************************
+*************************************
+CPU: run time = 0.000007 secs.
+Power method in CPU is finished
+
+--- Starting Unified Memory Version ---
+GPU Unified (Compute Only): 0.000555 secs.
+GPU Unified (Total + Mem): 0.000641 secs.
+Final Lambda: 2505.772461
+
+--- Starting Shared Memory Version ---
+GPU Shared (Compute Only): 0.000470 secs.
+GPU Shared (Total + Mem):  0.000546 secs.
+Final Lambda: 2505.772461
+
+--- Starting Global Memory Version ---
+GPU Global (Compute Only): 0.000447 secs.
+GPU Global (Total + Mem):  0.000521 secs.
+Final Lambda: 2505.772461
+
+================ Test 5 / 10 ================
+Power method in CPU starts
+*************************************
+*************************************
+CPU: run time = 0.000007 secs.
+Power method in CPU is finished
+
+--- Starting Unified Memory Version ---
+GPU Unified (Compute Only): 0.000554 secs.
+GPU Unified (Total + Mem): 0.000641 secs.
+Final Lambda: 2505.772461
+
+--- Starting Shared Memory Version ---
+GPU Shared (Compute Only): 0.000464 secs.
+GPU Shared (Total + Mem):  0.000540 secs.
+Final Lambda: 2505.772461
+
+--- Starting Global Memory Version ---
+GPU Global (Compute Only): 0.000454 secs.
+GPU Global (Total + Mem):  0.000528 secs.
+Final Lambda: 2505.772461
+
+================ Test 6 / 10 ================
+Power method in CPU starts
+*************************************
+*************************************
+CPU: run time = 0.000007 secs.
+Power method in CPU is finished
+
+--- Starting Unified Memory Version ---
+GPU Unified (Compute Only): 0.000567 secs.
+GPU Unified (Total + Mem): 0.000654 secs.
+Final Lambda: 2505.772461
+
+--- Starting Shared Memory Version ---
+GPU Shared (Compute Only): 0.000471 secs.
+GPU Shared (Total + Mem):  0.000546 secs.
+Final Lambda: 2505.772461
+
+--- Starting Global Memory Version ---
+GPU Global (Compute Only): 0.000436 secs.
+GPU Global (Total + Mem):  0.000510 secs.
+Final Lambda: 2505.772461
+
+================ Test 7 / 10 ================
+Power method in CPU starts
+*************************************
+*************************************
+CPU: run time = 0.000008 secs.
+Power method in CPU is finished
+
+--- Starting Unified Memory Version ---
+GPU Unified (Compute Only): 0.000553 secs.
+GPU Unified (Total + Mem): 0.000635 secs.
+Final Lambda: 2505.772461
+
+--- Starting Shared Memory Version ---
+GPU Shared (Compute Only): 0.000466 secs.
+GPU Shared (Total + Mem):  0.000542 secs.
+Final Lambda: 2505.772461
+
+--- Starting Global Memory Version ---
+GPU Global (Compute Only): 0.000439 secs.
+GPU Global (Total + Mem):  0.000513 secs.
+Final Lambda: 2505.772461
+
+================ Test 8 / 10 ================
+Power method in CPU starts
+*************************************
+*************************************
+CPU: run time = 0.000007 secs.
+Power method in CPU is finished
+
+--- Starting Unified Memory Version ---
+GPU Unified (Compute Only): 0.000548 secs.
+GPU Unified (Total + Mem): 0.000629 secs.
+Final Lambda: 2505.772461
+
+--- Starting Shared Memory Version ---
+GPU Shared (Compute Only): 0.000468 secs.
+GPU Shared (Total + Mem):  0.000544 secs.
+Final Lambda: 2505.772461
+
+--- Starting Global Memory Version ---
+GPU Global (Compute Only): 0.000438 secs.
+GPU Global (Total + Mem):  0.000511 secs.
+Final Lambda: 2505.772461
+
+================ Test 9 / 10 ================
+Power method in CPU starts
+*************************************
+*************************************
+CPU: run time = 0.000007 secs.
+Power method in CPU is finished
+
+--- Starting Unified Memory Version ---
+GPU Unified (Compute Only): 0.000545 secs.
+GPU Unified (Total + Mem): 0.000627 secs.
+Final Lambda: 2505.772461
+
+--- Starting Shared Memory Version ---
+GPU Shared (Compute Only): 0.000465 secs.
+GPU Shared (Total + Mem):  0.000540 secs.
+Final Lambda: 2505.772461
+
+--- Starting Global Memory Version ---
+GPU Global (Compute Only): 0.000438 secs.
+GPU Global (Total + Mem):  0.000511 secs.
+Final Lambda: 2505.772461
+
+================ Test 10 / 10 ================
+Power method in CPU starts
+*************************************
+*************************************
+CPU: run time = 0.000007 secs.
+Power method in CPU is finished
+
+--- Starting Unified Memory Version ---
+GPU Unified (Compute Only): 0.000549 secs.
+GPU Unified (Total + Mem): 0.000630 secs.
+Final Lambda: 2505.772461
+
+--- Starting Shared Memory Version ---
+GPU Shared (Compute Only): 0.000465 secs.
+GPU Shared (Total + Mem):  0.000541 secs.
+Final Lambda: 2505.772461
+
+--- Starting Global Memory Version ---
+GPU Global (Compute Only): 0.000443 secs.
+GPU Global (Total + Mem):  0.000517 secs.
+Final Lambda: 2505.772461
+------------------------------------------
+
+>>> RUNNING: Matrix Size 500 | Block Size 32
+------------------------------------------
+This GPU has major architecture 8, minor 0 
+Using block size 32 
+Matrix size 500 X 500 
+
+================ Test 1 / 10 ================
+Power method in CPU starts
+*************************************
+*************************************
+CPU: run time = 0.001169 secs.
+Power method in CPU is finished
+
+--- Starting Unified Memory Version ---
+GPU Unified (Compute Only): 0.001663 secs.
+GPU Unified (Total + Mem): 0.082272 secs.
+Final Lambda: 24977.244141
+
+--- Starting Shared Memory Version ---
+GPU Shared (Compute Only): 0.000532 secs.
+GPU Shared (Total + Mem):  0.000748 secs.
+Final Lambda: 24977.244141
+
+--- Starting Global Memory Version ---
+GPU Global (Compute Only): 0.000360 secs.
+GPU Global (Total + Mem):  0.000513 secs.
+Final Lambda: 24977.240234
+
+================ Test 2 / 10 ================
+Power method in CPU starts
+*************************************
+*************************************
+CPU: run time = 0.001165 secs.
+Power method in CPU is finished
+
+--- Starting Unified Memory Version ---
+GPU Unified (Compute Only): 0.000437 secs.
+GPU Unified (Total + Mem): 0.000679 secs.
+Final Lambda: 24977.244141
+
+--- Starting Shared Memory Version ---
+GPU Shared (Compute Only): 0.000462 secs.
+GPU Shared (Total + Mem):  0.000620 secs.
+Final Lambda: 24977.240234
+
+--- Starting Global Memory Version ---
+GPU Global (Compute Only): 0.000345 secs.
+GPU Global (Total + Mem):  0.000496 secs.
+Final Lambda: 24977.240234
+
+================ Test 3 / 10 ================
+Power method in CPU starts
+*************************************
+*************************************
+CPU: run time = 0.001165 secs.
+Power method in CPU is finished
+
+--- Starting Unified Memory Version ---
+GPU Unified (Compute Only): 0.000511 secs.
+GPU Unified (Total + Mem): 0.000737 secs.
+Final Lambda: 24977.240234
+
+--- Starting Shared Memory Version ---
+GPU Shared (Compute Only): 0.000461 secs.
+GPU Shared (Total + Mem):  0.000615 secs.
+Final Lambda: 24977.240234
+
+--- Starting Global Memory Version ---
+GPU Global (Compute Only): 0.000344 secs.
+GPU Global (Total + Mem):  0.000494 secs.
+Final Lambda: 24977.246094
+
+================ Test 4 / 10 ================
+Power method in CPU starts
+*************************************
+*************************************
+CPU: run time = 0.001165 secs.
+Power method in CPU is finished
+
+--- Starting Unified Memory Version ---
+GPU Unified (Compute Only): 0.000664 secs.
+GPU Unified (Total + Mem): 0.000888 secs.
+Final Lambda: 24977.240234
+
+--- Starting Shared Memory Version ---
+GPU Shared (Compute Only): 0.000459 secs.
+GPU Shared (Total + Mem):  0.000613 secs.
+Final Lambda: 24977.240234
+
+--- Starting Global Memory Version ---
+GPU Global (Compute Only): 0.000290 secs.
+GPU Global (Total + Mem):  0.000440 secs.
+Final Lambda: 24977.240234
+
+================ Test 5 / 10 ================
+Power method in CPU starts
+*************************************
+*************************************
+CPU: run time = 0.001166 secs.
+Power method in CPU is finished
+
+--- Starting Unified Memory Version ---
+GPU Unified (Compute Only): 0.000436 secs.
+GPU Unified (Total + Mem): 0.000653 secs.
+Final Lambda: 24977.244141
+
+--- Starting Shared Memory Version ---
+GPU Shared (Compute Only): 0.000462 secs.
+GPU Shared (Total + Mem):  0.000616 secs.
+Final Lambda: 24977.240234
+
+--- Starting Global Memory Version ---
+GPU Global (Compute Only): 0.000343 secs.
+GPU Global (Total + Mem):  0.000493 secs.
+Final Lambda: 24977.246094
+
+================ Test 6 / 10 ================
+Power method in CPU starts
+*************************************
+*************************************
+CPU: run time = 0.001164 secs.
+Power method in CPU is finished
+
+--- Starting Unified Memory Version ---
+GPU Unified (Compute Only): 0.000508 secs.
+GPU Unified (Total + Mem): 0.000727 secs.
+Final Lambda: 24977.240234
+
+--- Starting Shared Memory Version ---
+GPU Shared (Compute Only): 0.000458 secs.
+GPU Shared (Total + Mem):  0.000611 secs.
+Final Lambda: 24977.240234
+
+--- Starting Global Memory Version ---
+GPU Global (Compute Only): 0.000398 secs.
+GPU Global (Total + Mem):  0.000548 secs.
+Final Lambda: 24977.244141
+
+================ Test 7 / 10 ================
+Power method in CPU starts
+*************************************
+*************************************
+CPU: run time = 0.001165 secs.
+Power method in CPU is finished
+
+--- Starting Unified Memory Version ---
+GPU Unified (Compute Only): 0.000511 secs.
+GPU Unified (Total + Mem): 0.000726 secs.
+Final Lambda: 24977.240234
+
+--- Starting Shared Memory Version ---
+GPU Shared (Compute Only): 0.000468 secs.
+GPU Shared (Total + Mem):  0.000622 secs.
+Final Lambda: 24977.240234
+
+--- Starting Global Memory Version ---
+GPU Global (Compute Only): 0.000351 secs.
+GPU Global (Total + Mem):  0.000500 secs.
+Final Lambda: 24977.246094
+
+================ Test 8 / 10 ================
+Power method in CPU starts
+*************************************
+*************************************
+CPU: run time = 0.001164 secs.
+Power method in CPU is finished
+
+--- Starting Unified Memory Version ---
+GPU Unified (Compute Only): 0.000755 secs.
+GPU Unified (Total + Mem): 0.000970 secs.
+Final Lambda: 24977.244141
+
+--- Starting Shared Memory Version ---
+GPU Shared (Compute Only): 0.000461 secs.
+GPU Shared (Total + Mem):  0.000614 secs.
+Final Lambda: 24977.240234
+
+--- Starting Global Memory Version ---
+GPU Global (Compute Only): 0.000394 secs.
+GPU Global (Total + Mem):  0.000543 secs.
+Final Lambda: 24977.244141
+
+================ Test 9 / 10 ================
+Power method in CPU starts
+*************************************
+*************************************
+CPU: run time = 0.001165 secs.
+Power method in CPU is finished
+
+--- Starting Unified Memory Version ---
+GPU Unified (Compute Only): 0.000501 secs.
+GPU Unified (Total + Mem): 0.000715 secs.
+Final Lambda: 24977.240234
+
+--- Starting Shared Memory Version ---
+GPU Shared (Compute Only): 0.000463 secs.
+GPU Shared (Total + Mem):  0.000615 secs.
+Final Lambda: 24977.240234
+
+--- Starting Global Memory Version ---
+GPU Global (Compute Only): 0.000341 secs.
+GPU Global (Total + Mem):  0.000489 secs.
+Final Lambda: 24977.246094
+
+================ Test 10 / 10 ================
+Power method in CPU starts
+*************************************
+*************************************
+CPU: run time = 0.001166 secs.
+Power method in CPU is finished
+
+--- Starting Unified Memory Version ---
+GPU Unified (Compute Only): 0.000429 secs.
+GPU Unified (Total + Mem): 0.000642 secs.
+Final Lambda: 24977.244141
+
+--- Starting Shared Memory Version ---
+GPU Shared (Compute Only): 0.000459 secs.
+GPU Shared (Total + Mem):  0.000611 secs.
+Final Lambda: 24977.240234
+
+--- Starting Global Memory Version ---
+GPU Global (Compute Only): 0.000287 secs.
+GPU Global (Total + Mem):  0.000436 secs.
+Final Lambda: 24977.240234
+------------------------------------------
+
+>>> RUNNING: Matrix Size 2000 | Block Size 32
+------------------------------------------
+This GPU has major architecture 8, minor 0 
+Using block size 32 
+Matrix size 2000 X 2000 
+
+================ Test 1 / 10 ================
+Power method in CPU starts
+*************************************
+*************************************
+CPU: run time = 0.016422 secs.
+Power method in CPU is finished
+
+--- Starting Unified Memory Version ---
+GPU Unified (Compute Only): 0.003292 secs.
+GPU Unified (Total + Mem): 0.087825 secs.
+Final Lambda: 100018.304688
+
+--- Starting Shared Memory Version ---
+GPU Shared (Compute Only): 0.004458 secs.
+GPU Shared (Total + Mem):  0.005627 secs.
+Final Lambda: 100018.304688
+
+--- Starting Global Memory Version ---
+GPU Global (Compute Only): 0.001720 secs.
+GPU Global (Total + Mem):  0.002731 secs.
+Final Lambda: 100018.304688
+
+================ Test 2 / 10 ================
+Power method in CPU starts
+*************************************
+*************************************
+CPU: run time = 0.015486 secs.
+Power method in CPU is finished
+
+--- Starting Unified Memory Version ---
+GPU Unified (Compute Only): 0.002118 secs.
+GPU Unified (Total + Mem): 0.003914 secs.
+Final Lambda: 100018.304688
+
+--- Starting Shared Memory Version ---
+GPU Shared (Compute Only): 0.001480 secs.
+GPU Shared (Total + Mem):  0.002499 secs.
+Final Lambda: 100018.304688
+
+--- Starting Global Memory Version ---
+GPU Global (Compute Only): 0.001702 secs.
+GPU Global (Total + Mem):  0.002704 secs.
+Final Lambda: 100018.312500
+
+================ Test 3 / 10 ================
+Power method in CPU starts
+*************************************
+*************************************
+CPU: run time = 0.015490 secs.
+Power method in CPU is finished
+
+--- Starting Unified Memory Version ---
+GPU Unified (Compute Only): 0.004252 secs.
+GPU Unified (Total + Mem): 0.006113 secs.
+Final Lambda: 100018.320312
+
+--- Starting Shared Memory Version ---
+GPU Shared (Compute Only): 0.004157 secs.
+GPU Shared (Total + Mem):  0.005166 secs.
+Final Lambda: 100018.312500
+
+--- Starting Global Memory Version ---
+GPU Global (Compute Only): 0.002927 secs.
+GPU Global (Total + Mem):  0.003930 secs.
+Final Lambda: 100018.312500
+
+================ Test 4 / 10 ================
+Power method in CPU starts
+*************************************
+*************************************
+CPU: run time = 0.015488 secs.
+Power method in CPU is finished
+
+--- Starting Unified Memory Version ---
+GPU Unified (Compute Only): 0.005160 secs.
+GPU Unified (Total + Mem): 0.006978 secs.
+Final Lambda: 100018.312500
+
+--- Starting Shared Memory Version ---
+GPU Shared (Compute Only): 0.001483 secs.
+GPU Shared (Total + Mem):  0.002489 secs.
+Final Lambda: 100018.296875
+
+--- Starting Global Memory Version ---
+GPU Global (Compute Only): 0.002922 secs.
+GPU Global (Total + Mem):  0.003917 secs.
+Final Lambda: 100018.304688
+
+================ Test 5 / 10 ================
+Power method in CPU starts
+*************************************
+*************************************
+CPU: run time = 0.015487 secs.
+Power method in CPU is finished
+
+--- Starting Unified Memory Version ---
+GPU Unified (Compute Only): 0.002421 secs.
+GPU Unified (Total + Mem): 0.004336 secs.
+Final Lambda: 100018.320312
+
+--- Starting Shared Memory Version ---
+GPU Shared (Compute Only): 0.001477 secs.
+GPU Shared (Total + Mem):  0.002485 secs.
+Final Lambda: 100018.296875
+
+--- Starting Global Memory Version ---
+GPU Global (Compute Only): 0.002194 secs.
+GPU Global (Total + Mem):  0.003194 secs.
+Final Lambda: 100018.296875
+
+================ Test 6 / 10 ================
+Power method in CPU starts
+*************************************
+*************************************
+CPU: run time = 0.015500 secs.
+Power method in CPU is finished
+
+--- Starting Unified Memory Version ---
+GPU Unified (Compute Only): 0.001504 secs.
+GPU Unified (Total + Mem): 0.003331 secs.
+Final Lambda: 100018.296875
+
+--- Starting Shared Memory Version ---
+GPU Shared (Compute Only): 0.002660 secs.
+GPU Shared (Total + Mem):  0.003667 secs.
+Final Lambda: 100018.289062
+
+--- Starting Global Memory Version ---
+GPU Global (Compute Only): 0.001693 secs.
+GPU Global (Total + Mem):  0.002691 secs.
+Final Lambda: 100018.304688
+
+================ Test 7 / 10 ================
+Power method in CPU starts
+*************************************
+*************************************
+CPU: run time = 0.015487 secs.
+Power method in CPU is finished
+
+--- Starting Unified Memory Version ---
+GPU Unified (Compute Only): 0.003934 secs.
+GPU Unified (Total + Mem): 0.005795 secs.
+Final Lambda: 100018.304688
+
+--- Starting Shared Memory Version ---
+GPU Shared (Compute Only): 0.002952 secs.
+GPU Shared (Total + Mem):  0.003960 secs.
+Final Lambda: 100018.304688
+
+--- Starting Global Memory Version ---
+GPU Global (Compute Only): 0.002430 secs.
+GPU Global (Total + Mem):  0.003425 secs.
+Final Lambda: 100018.312500
+
+================ Test 8 / 10 ================
+Power method in CPU starts
+*************************************
+*************************************
+CPU: run time = 0.015489 secs.
+Power method in CPU is finished
+
+--- Starting Unified Memory Version ---
+GPU Unified (Compute Only): 0.005132 secs.
+GPU Unified (Total + Mem): 0.006980 secs.
+Final Lambda: 100018.320312
+
+--- Starting Shared Memory Version ---
+GPU Shared (Compute Only): 0.002354 secs.
+GPU Shared (Total + Mem):  0.003357 secs.
+Final Lambda: 100018.328125
+
+--- Starting Global Memory Version ---
+GPU Global (Compute Only): 0.002192 secs.
+GPU Global (Total + Mem):  0.003192 secs.
+Final Lambda: 100018.320312
+
+================ Test 9 / 10 ================
+Power method in CPU starts
+*************************************
+*************************************
+CPU: run time = 0.015489 secs.
+Power method in CPU is finished
+
+--- Starting Unified Memory Version ---
+GPU Unified (Compute Only): 0.003928 secs.
+GPU Unified (Total + Mem): 0.005852 secs.
+Final Lambda: 100018.328125
+
+--- Starting Shared Memory Version ---
+GPU Shared (Compute Only): 0.005036 secs.
+GPU Shared (Total + Mem):  0.006044 secs.
+Final Lambda: 100018.312500
+
+--- Starting Global Memory Version ---
+GPU Global (Compute Only): 0.002188 secs.
+GPU Global (Total + Mem):  0.003185 secs.
+Final Lambda: 100018.296875
+
+================ Test 10 / 10 ================
+Power method in CPU starts
+*************************************
+*************************************
+CPU: run time = 0.015491 secs.
+Power method in CPU is finished
+
+--- Starting Unified Memory Version ---
+GPU Unified (Compute Only): 0.003333 secs.
+GPU Unified (Total + Mem): 0.005173 secs.
+Final Lambda: 100018.312500
+
+--- Starting Shared Memory Version ---
+GPU Shared (Compute Only): 0.002366 secs.
+GPU Shared (Total + Mem):  0.003382 secs.
+Final Lambda: 100018.296875
+
+--- Starting Global Memory Version ---
+GPU Global (Compute Only): 0.002442 secs.
+GPU Global (Total + Mem):  0.003435 secs.
+Final Lambda: 100018.312500
+------------------------------------------
+
+>>> RUNNING: Matrix Size 4000 | Block Size 32
+------------------------------------------
+This GPU has major architecture 8, minor 0 
+Using block size 32 
+Matrix size 4000 X 4000 
+
+================ Test 1 / 10 ================
+Power method in CPU starts
+*************************************
+*************************************
+CPU: run time = 0.046241 secs.
+Power method in CPU is finished
+
+--- Starting Unified Memory Version ---
+GPU Unified (Compute Only): 0.018016 secs.
+GPU Unified (Total + Mem): 0.105364 secs.
+Final Lambda: 199997.640625
+
+--- Starting Shared Memory Version ---
+GPU Shared (Compute Only): 0.007498 secs.
+GPU Shared (Total + Mem):  0.012879 secs.
+Final Lambda: 199997.640625
+
+--- Starting Global Memory Version ---
+GPU Global (Compute Only): 0.006257 secs.
+GPU Global (Total + Mem):  0.012137 secs.
+Final Lambda: 199997.640625
+
+================ Test 2 / 10 ================
+Power method in CPU starts
+*************************************
+*************************************
+CPU: run time = 0.046501 secs.
+Power method in CPU is finished
+
+--- Starting Unified Memory Version ---
+GPU Unified (Compute Only): 0.014146 secs.
+GPU Unified (Total + Mem): 0.020790 secs.
+Final Lambda: 199997.609375
+
+--- Starting Shared Memory Version ---
+GPU Shared (Compute Only): 0.006884 secs.
+GPU Shared (Total + Mem):  0.012287 secs.
+Final Lambda: 199997.671875
+
+--- Starting Global Memory Version ---
+GPU Global (Compute Only): 0.015195 secs.
+GPU Global (Total + Mem):  0.020965 secs.
+Final Lambda: 199997.578125
+
+================ Test 3 / 10 ================
+Power method in CPU starts
+*************************************
+*************************************
+CPU: run time = 0.046088 secs.
+Power method in CPU is finished
+
+--- Starting Unified Memory Version ---
+GPU Unified (Compute Only): 0.010942 secs.
+GPU Unified (Total + Mem): 0.017459 secs.
+Final Lambda: 199997.593750
+
+--- Starting Shared Memory Version ---
+GPU Shared (Compute Only): 0.008146 secs.
+GPU Shared (Total + Mem):  0.013310 secs.
+Final Lambda: 199997.640625
+
+--- Starting Global Memory Version ---
+GPU Global (Compute Only): 0.007133 secs.
+GPU Global (Total + Mem):  0.012838 secs.
+Final Lambda: 199997.625000
+
+================ Test 4 / 10 ================
+Power method in CPU starts
+*************************************
+*************************************
+CPU: run time = 0.045876 secs.
+Power method in CPU is finished
+
+--- Starting Unified Memory Version ---
+GPU Unified (Compute Only): 0.003842 secs.
+GPU Unified (Total + Mem): 0.010334 secs.
+Final Lambda: 199997.625000
+
+--- Starting Shared Memory Version ---
+GPU Shared (Compute Only): 0.004997 secs.
+GPU Shared (Total + Mem):  0.010141 secs.
+Final Lambda: 199997.656250
+
+--- Starting Global Memory Version ---
+GPU Global (Compute Only): 0.004452 secs.
+GPU Global (Total + Mem):  0.010128 secs.
+Final Lambda: 199997.734375
+
+================ Test 5 / 10 ================
+Power method in CPU starts
+*************************************
+*************************************
+CPU: run time = 0.045823 secs.
+Power method in CPU is finished
+
+--- Starting Unified Memory Version ---
+GPU Unified (Compute Only): 0.016097 secs.
+GPU Unified (Total + Mem): 0.022677 secs.
+Final Lambda: 199997.640625
+
+--- Starting Shared Memory Version ---
+GPU Shared (Compute Only): 0.009386 secs.
+GPU Shared (Total + Mem):  0.014512 secs.
+Final Lambda: 199997.640625
+
+--- Starting Global Memory Version ---
+GPU Global (Compute Only): 0.025027 secs.
+GPU Global (Total + Mem):  0.030701 secs.
+Final Lambda: 199997.609375
+
+================ Test 6 / 10 ================
+Power method in CPU starts
+*************************************
+*************************************
+CPU: run time = 0.045782 secs.
+Power method in CPU is finished
+
+--- Starting Unified Memory Version ---
+GPU Unified (Compute Only): 0.003854 secs.
+GPU Unified (Total + Mem): 0.010323 secs.
+Final Lambda: 199997.640625
+
+--- Starting Shared Memory Version ---
+GPU Shared (Compute Only): 0.004383 secs.
+GPU Shared (Total + Mem):  0.009509 secs.
+Final Lambda: 199997.656250
+
+--- Starting Global Memory Version ---
+GPU Global (Compute Only): 0.006243 secs.
+GPU Global (Total + Mem):  0.011902 secs.
+Final Lambda: 199997.593750
+
+================ Test 7 / 10 ================
+Power method in CPU starts
+*************************************
+*************************************
+CPU: run time = 0.045701 secs.
+Power method in CPU is finished
+
+--- Starting Unified Memory Version ---
+GPU Unified (Compute Only): 0.012234 secs.
+GPU Unified (Total + Mem): 0.018799 secs.
+Final Lambda: 199997.625000
+
+--- Starting Shared Memory Version ---
+GPU Shared (Compute Only): 0.004378 secs.
+GPU Shared (Total + Mem):  0.009490 secs.
+Final Lambda: 199997.640625
+
+--- Starting Global Memory Version ---
+GPU Global (Compute Only): 0.005347 secs.
+GPU Global (Total + Mem):  0.010989 secs.
+Final Lambda: 199997.625000
+
+================ Test 8 / 10 ================
+Power method in CPU starts
+*************************************
+*************************************
+CPU: run time = 0.045783 secs.
+Power method in CPU is finished
+
+--- Starting Unified Memory Version ---
+GPU Unified (Compute Only): 0.005801 secs.
+GPU Unified (Total + Mem): 0.012257 secs.
+Final Lambda: 199997.625000
+
+--- Starting Shared Memory Version ---
+GPU Shared (Compute Only): 0.007515 secs.
+GPU Shared (Total + Mem):  0.012650 secs.
+Final Lambda: 199997.625000
+
+--- Starting Global Memory Version ---
+GPU Global (Compute Only): 0.016980 secs.
+GPU Global (Total + Mem):  0.022626 secs.
+Final Lambda: 199997.609375
+
+================ Test 9 / 10 ================
+Power method in CPU starts
+*************************************
+*************************************
+CPU: run time = 0.045734 secs.
+Power method in CPU is finished
+
+--- Starting Unified Memory Version ---
+GPU Unified (Compute Only): 0.018748 secs.
+GPU Unified (Total + Mem): 0.025287 secs.
+Final Lambda: 199997.640625
+
+--- Starting Shared Memory Version ---
+GPU Shared (Compute Only): 0.010021 secs.
+GPU Shared (Total + Mem):  0.015204 secs.
+Final Lambda: 199997.625000
+
+--- Starting Global Memory Version ---
+GPU Global (Compute Only): 0.006240 secs.
+GPU Global (Total + Mem):  0.011972 secs.
+Final Lambda: 199997.593750
+
+================ Test 10 / 10 ================
+Power method in CPU starts
+*************************************
+*************************************
+CPU: run time = 0.046007 secs.
+Power method in CPU is finished
+
+--- Starting Unified Memory Version ---
+GPU Unified (Compute Only): 0.026354 secs.
+GPU Unified (Total + Mem): 0.032808 secs.
+Final Lambda: 199997.640625
+
+--- Starting Shared Memory Version ---
+GPU Shared (Compute Only): 0.004372 secs.
+GPU Shared (Total + Mem):  0.009537 secs.
+Final Lambda: 199997.640625
+
+--- Starting Global Memory Version ---
+GPU Global (Compute Only): 0.007152 secs.
+GPU Global (Total + Mem):  0.012841 secs.
+Final Lambda: 199997.609375
+------------------------------------------
+
+>>> RUNNING: Matrix Size 8000 | Block Size 32
+------------------------------------------
+This GPU has major architecture 8, minor 0 
+Using block size 32 
+Matrix size 8000 X 8000 
+
+================ Test 1 / 10 ================
+Power method in CPU starts
+*************************************
+*************************************
+CPU: run time = 0.279930 secs.
+Power method in CPU is finished
+
+--- Starting Unified Memory Version ---
+GPU Unified (Compute Only): 0.044238 secs.
+GPU Unified (Total + Mem): 0.149611 secs.
+Final Lambda: 399990.406250
+
+--- Starting Shared Memory Version ---
+GPU Shared (Compute Only): 0.054874 secs.
+GPU Shared (Total + Mem):  0.077110 secs.
+Final Lambda: 399990.468750
+
+--- Starting Global Memory Version ---
+GPU Global (Compute Only): 0.045873 secs.
+GPU Global (Total + Mem):  0.073030 secs.
+Final Lambda: 399990.281250
+
+================ Test 2 / 10 ================
+Power method in CPU starts
+*************************************
+*************************************
+CPU: run time = 0.267328 secs.
+Power method in CPU is finished
+
+--- Starting Unified Memory Version ---
+GPU Unified (Compute Only): 0.009702 secs.
+GPU Unified (Total + Mem): 0.033798 secs.
+Final Lambda: 399990.437500
+
+--- Starting Shared Memory Version ---
+GPU Shared (Compute Only): 0.012887 secs.
+GPU Shared (Total + Mem):  0.034803 secs.
+Final Lambda: 399990.312500
+
+--- Starting Global Memory Version ---
+GPU Global (Compute Only): 0.024680 secs.
+GPU Global (Total + Mem):  0.051662 secs.
+Final Lambda: 399990.343750
+
+================ Test 3 / 10 ================
+Power method in CPU starts
+*************************************
+*************************************
+CPU: run time = 0.268905 secs.
+Power method in CPU is finished
+
+--- Starting Unified Memory Version ---
+GPU Unified (Compute Only): 0.009689 secs.
+GPU Unified (Total + Mem): 0.033886 secs.
+Final Lambda: 399990.312500
+
+--- Starting Shared Memory Version ---
+GPU Shared (Compute Only): 0.008055 secs.
+GPU Shared (Total + Mem):  0.029964 secs.
+Final Lambda: 399990.406250
+
+--- Starting Global Memory Version ---
+GPU Global (Compute Only): 0.031748 secs.
+GPU Global (Total + Mem):  0.059303 secs.
+Final Lambda: 399990.406250
+
+================ Test 4 / 10 ================
+Power method in CPU starts
+*************************************
+*************************************
+CPU: run time = 0.272324 secs.
+Power method in CPU is finished
+
+--- Starting Unified Memory Version ---
+GPU Unified (Compute Only): 0.012965 secs.
+GPU Unified (Total + Mem): 0.037029 secs.
+Final Lambda: 399990.375000
+
+--- Starting Shared Memory Version ---
+GPU Shared (Compute Only): 0.017711 secs.
+GPU Shared (Total + Mem):  0.039766 secs.
+Final Lambda: 399990.437500
+
+--- Starting Global Memory Version ---
+GPU Global (Compute Only): 0.042323 secs.
+GPU Global (Total + Mem):  0.069311 secs.
+Final Lambda: 399990.500000
+
+================ Test 5 / 10 ================
+Power method in CPU starts
+*************************************
+*************************************
+CPU: run time = 0.267174 secs.
+Power method in CPU is finished
+
+--- Starting Unified Memory Version ---
+GPU Unified (Compute Only): 0.019422 secs.
+GPU Unified (Total + Mem): 0.043691 secs.
+Final Lambda: 399990.468750
+
+--- Starting Shared Memory Version ---
+GPU Shared (Compute Only): 0.016073 secs.
+GPU Shared (Total + Mem):  0.037975 secs.
+Final Lambda: 399990.406250
+
+--- Starting Global Memory Version ---
+GPU Global (Compute Only): 0.017631 secs.
+GPU Global (Total + Mem):  0.044558 secs.
+Final Lambda: 399990.312500
+
+================ Test 6 / 10 ================
+Power method in CPU starts
+*************************************
+*************************************
+CPU: run time = 0.266623 secs.
+Power method in CPU is finished
+
+--- Starting Unified Memory Version ---
+GPU Unified (Compute Only): 0.032352 secs.
+GPU Unified (Total + Mem): 0.056273 secs.
+Final Lambda: 399990.406250
+
+--- Starting Shared Memory Version ---
+GPU Shared (Compute Only): 0.009670 secs.
+GPU Shared (Total + Mem):  0.031582 secs.
+Final Lambda: 399990.343750
+
+--- Starting Global Memory Version ---
+GPU Global (Compute Only): 0.084683 secs.
+GPU Global (Total + Mem):  0.111611 secs.
+Final Lambda: 399990.343750
+
+================ Test 7 / 10 ================
+Power method in CPU starts
+*************************************
+*************************************
+CPU: run time = 0.266912 secs.
+Power method in CPU is finished
+
+--- Starting Unified Memory Version ---
+GPU Unified (Compute Only): 0.009674 secs.
+GPU Unified (Total + Mem): 0.033573 secs.
+Final Lambda: 399990.406250
+
+--- Starting Shared Memory Version ---
+GPU Shared (Compute Only): 0.019309 secs.
+GPU Shared (Total + Mem):  0.041179 secs.
+Final Lambda: 399990.375000
+
+--- Starting Global Memory Version ---
+GPU Global (Compute Only): 0.038804 secs.
+GPU Global (Total + Mem):  0.065726 secs.
+Final Lambda: 399990.343750
+
+================ Test 8 / 10 ================
+Power method in CPU starts
+*************************************
+*************************************
+CPU: run time = 0.266933 secs.
+Power method in CPU is finished
+
+--- Starting Unified Memory Version ---
+GPU Unified (Compute Only): 0.017757 secs.
+GPU Unified (Total + Mem): 0.041844 secs.
+Final Lambda: 399990.375000
+
+--- Starting Shared Memory Version ---
+GPU Shared (Compute Only): 0.036998 secs.
+GPU Shared (Total + Mem):  0.058875 secs.
+Final Lambda: 399990.281250
+
+--- Starting Global Memory Version ---
+GPU Global (Compute Only): 0.045871 secs.
+GPU Global (Total + Mem):  0.072892 secs.
+Final Lambda: 399990.437500
+
+================ Test 9 / 10 ================
+Power method in CPU starts
+*************************************
+*************************************
+CPU: run time = 0.266985 secs.
+Power method in CPU is finished
+
+--- Starting Unified Memory Version ---
+GPU Unified (Compute Only): 0.008093 secs.
+GPU Unified (Total + Mem): 0.033398 secs.
+Final Lambda: 399990.406250
+
+--- Starting Shared Memory Version ---
+GPU Shared (Compute Only): 0.011279 secs.
+GPU Shared (Total + Mem):  0.033133 secs.
+Final Lambda: 399990.375000
+
+--- Starting Global Memory Version ---
+GPU Global (Compute Only): 0.035275 secs.
+GPU Global (Total + Mem):  0.062213 secs.
+Final Lambda: 399990.281250
+
+================ Test 10 / 10 ================
+Power method in CPU starts
+*************************************
+*************************************
+CPU: run time = 0.266992 secs.
+Power method in CPU is finished
+
+--- Starting Unified Memory Version ---
+GPU Unified (Compute Only): 0.021068 secs.
+GPU Unified (Total + Mem): 0.045261 secs.
+Final Lambda: 399990.406250
+
+--- Starting Shared Memory Version ---
+GPU Shared (Compute Only): 0.008064 secs.
+GPU Shared (Total + Mem):  0.029958 secs.
+Final Lambda: 399990.375000
+
+--- Starting Global Memory Version ---
+GPU Global (Compute Only): 0.031763 secs.
+GPU Global (Total + Mem):  0.058699 secs.
+Final Lambda: 399990.437500
+------------------------------------------
+
+##########################################
+SETTING CONSTANT BLOCK_SIZE = 64
+##########################################
+Recompiling for Block Size 64...
+nvcc warning : Support for offline compilation for architectures prior to '<compute/sm/lto>_75' will be removed in a future release (Use -Wno-deprecated-gpu-targets to suppress warning).
+
+>>> RUNNING: Matrix Size 50 | Block Size 64
+------------------------------------------
+This GPU has major architecture 8, minor 0 
+Using block size 64 
+Matrix size 50 X 50 
+
+================ Test 1 / 10 ================
+Power method in CPU starts
+*************************************
+*************************************
+CPU: run time = 0.000008 secs.
+Power method in CPU is finished
+
+--- Starting Unified Memory Version ---
+GPU Unified (Compute Only): 0.001948 secs.
+GPU Unified (Total + Mem): 0.081637 secs.
+Final Lambda: 2505.771973
+
+--- Starting Shared Memory Version ---
+GPU Shared (Compute Only): 0.000263 secs.
+GPU Shared (Total + Mem):  0.000371 secs.
+Final Lambda: 2505.771973
+
+--- Starting Global Memory Version ---
+GPU Global (Compute Only): 0.000264 secs.
+GPU Global (Total + Mem):  0.000339 secs.
+Final Lambda: 2505.771973
+
+================ Test 2 / 10 ================
+Power method in CPU starts
+*************************************
+*************************************
+CPU: run time = 0.000008 secs.
+Power method in CPU is finished
+
+--- Starting Unified Memory Version ---
+GPU Unified (Compute Only): 0.000310 secs.
+GPU Unified (Total + Mem): 0.000415 secs.
+Final Lambda: 2505.771973
+
+--- Starting Shared Memory Version ---
+GPU Shared (Compute Only): 0.000261 secs.
+GPU Shared (Total + Mem):  0.000338 secs.
+Final Lambda: 2505.771973
+
+--- Starting Global Memory Version ---
+GPU Global (Compute Only): 0.000252 secs.
+GPU Global (Total + Mem):  0.000330 secs.
+Final Lambda: 2505.771973
+
+================ Test 3 / 10 ================
+Power method in CPU starts
+*************************************
+*************************************
+CPU: run time = 0.000008 secs.
+Power method in CPU is finished
+
+--- Starting Unified Memory Version ---
+GPU Unified (Compute Only): 0.000308 secs.
+GPU Unified (Total + Mem): 0.000395 secs.
+Final Lambda: 2505.771973
+
+--- Starting Shared Memory Version ---
+GPU Shared (Compute Only): 0.000262 secs.
+GPU Shared (Total + Mem):  0.000338 secs.
+Final Lambda: 2505.771973
+
+--- Starting Global Memory Version ---
+GPU Global (Compute Only): 0.000245 secs.
+GPU Global (Total + Mem):  0.000320 secs.
+Final Lambda: 2505.771973
+
+================ Test 4 / 10 ================
+Power method in CPU starts
+*************************************
+*************************************
+CPU: run time = 0.000007 secs.
+Power method in CPU is finished
+
+--- Starting Unified Memory Version ---
+GPU Unified (Compute Only): 0.000307 secs.
+GPU Unified (Total + Mem): 0.000395 secs.
+Final Lambda: 2505.771973
+
+--- Starting Shared Memory Version ---
+GPU Shared (Compute Only): 0.000263 secs.
+GPU Shared (Total + Mem):  0.000340 secs.
+Final Lambda: 2505.771973
+
+--- Starting Global Memory Version ---
+GPU Global (Compute Only): 0.000245 secs.
+GPU Global (Total + Mem):  0.000319 secs.
+Final Lambda: 2505.771973
+
+================ Test 5 / 10 ================
+Power method in CPU starts
+*************************************
+*************************************
+CPU: run time = 0.000007 secs.
+Power method in CPU is finished
+
+--- Starting Unified Memory Version ---
+GPU Unified (Compute Only): 0.000308 secs.
+GPU Unified (Total + Mem): 0.000392 secs.
+Final Lambda: 2505.771973
+
+--- Starting Shared Memory Version ---
+GPU Shared (Compute Only): 0.000260 secs.
+GPU Shared (Total + Mem):  0.000337 secs.
+Final Lambda: 2505.771973
+
+--- Starting Global Memory Version ---
+GPU Global (Compute Only): 0.000245 secs.
+GPU Global (Total + Mem):  0.000320 secs.
+Final Lambda: 2505.771973
+
+================ Test 6 / 10 ================
+Power method in CPU starts
+*************************************
+*************************************
+CPU: run time = 0.000007 secs.
+Power method in CPU is finished
+
+--- Starting Unified Memory Version ---
+GPU Unified (Compute Only): 0.000314 secs.
+GPU Unified (Total + Mem): 0.000402 secs.
+Final Lambda: 2505.771973
+
+--- Starting Shared Memory Version ---
+GPU Shared (Compute Only): 0.000272 secs.
+GPU Shared (Total + Mem):  0.000349 secs.
+Final Lambda: 2505.771973
+
+--- Starting Global Memory Version ---
+GPU Global (Compute Only): 0.000257 secs.
+GPU Global (Total + Mem):  0.000331 secs.
+Final Lambda: 2505.771973
+
+================ Test 7 / 10 ================
+Power method in CPU starts
+*************************************
+*************************************
+CPU: run time = 0.000007 secs.
+Power method in CPU is finished
+
+--- Starting Unified Memory Version ---
+GPU Unified (Compute Only): 0.000308 secs.
+GPU Unified (Total + Mem): 0.000397 secs.
+Final Lambda: 2505.771973
+
+--- Starting Shared Memory Version ---
+GPU Shared (Compute Only): 0.000259 secs.
+GPU Shared (Total + Mem):  0.000335 secs.
+Final Lambda: 2505.771973
+
+--- Starting Global Memory Version ---
+GPU Global (Compute Only): 0.000245 secs.
+GPU Global (Total + Mem):  0.000319 secs.
+Final Lambda: 2505.771973
+
+================ Test 8 / 10 ================
+Power method in CPU starts
+*************************************
+*************************************
+CPU: run time = 0.000007 secs.
+Power method in CPU is finished
+
+--- Starting Unified Memory Version ---
+GPU Unified (Compute Only): 0.000309 secs.
+GPU Unified (Total + Mem): 0.000392 secs.
+Final Lambda: 2505.771973
+
+--- Starting Shared Memory Version ---
+GPU Shared (Compute Only): 0.000260 secs.
+GPU Shared (Total + Mem):  0.000339 secs.
+Final Lambda: 2505.771973
+
+--- Starting Global Memory Version ---
+GPU Global (Compute Only): 0.000243 secs.
+GPU Global (Total + Mem):  0.000316 secs.
+Final Lambda: 2505.771973
+
+================ Test 9 / 10 ================
+Power method in CPU starts
+*************************************
+*************************************
+CPU: run time = 0.000007 secs.
+Power method in CPU is finished
+
+--- Starting Unified Memory Version ---
+GPU Unified (Compute Only): 0.000302 secs.
+GPU Unified (Total + Mem): 0.000384 secs.
+Final Lambda: 2505.771973
+
+--- Starting Shared Memory Version ---
+GPU Shared (Compute Only): 0.000259 secs.
+GPU Shared (Total + Mem):  0.000334 secs.
+Final Lambda: 2505.771973
+
+--- Starting Global Memory Version ---
+GPU Global (Compute Only): 0.000243 secs.
+GPU Global (Total + Mem):  0.000317 secs.
+Final Lambda: 2505.771973
+
+================ Test 10 / 10 ================
+Power method in CPU starts
+*************************************
+*************************************
+CPU: run time = 0.000007 secs.
+Power method in CPU is finished
+
+--- Starting Unified Memory Version ---
+GPU Unified (Compute Only): 0.000302 secs.
+GPU Unified (Total + Mem): 0.000383 secs.
+Final Lambda: 2505.771973
+
+--- Starting Shared Memory Version ---
+GPU Shared (Compute Only): 0.000258 secs.
+GPU Shared (Total + Mem):  0.000333 secs.
+Final Lambda: 2505.771973
+
+--- Starting Global Memory Version ---
+GPU Global (Compute Only): 0.000243 secs.
+GPU Global (Total + Mem):  0.000316 secs.
+Final Lambda: 2505.771973
+------------------------------------------
+
+>>> RUNNING: Matrix Size 500 | Block Size 64
+------------------------------------------
+This GPU has major architecture 8, minor 0 
+Using block size 64 
+Matrix size 500 X 500 
+
+================ Test 1 / 10 ================
+Power method in CPU starts
+*************************************
+*************************************
+CPU: run time = 0.001189 secs.
+Power method in CPU is finished
+
+--- Starting Unified Memory Version ---
+GPU Unified (Compute Only): 0.001815 secs.
+GPU Unified (Total + Mem): 0.076461 secs.
+Final Lambda: 24977.244141
+
+--- Starting Shared Memory Version ---
+GPU Shared (Compute Only): 0.000621 secs.
+GPU Shared (Total + Mem):  0.000831 secs.
+Final Lambda: 24977.244141
+
+--- Starting Global Memory Version ---
+GPU Global (Compute Only): 0.000307 secs.
+GPU Global (Total + Mem):  0.000462 secs.
+Final Lambda: 24977.244141
+
+================ Test 2 / 10 ================
+Power method in CPU starts
+*************************************
+*************************************
+CPU: run time = 0.001169 secs.
+Power method in CPU is finished
+
+--- Starting Unified Memory Version ---
+GPU Unified (Compute Only): 0.000689 secs.
+GPU Unified (Total + Mem): 0.000931 secs.
+Final Lambda: 24977.244141
+
+--- Starting Shared Memory Version ---
+GPU Shared (Compute Only): 0.000404 secs.
+GPU Shared (Total + Mem):  0.000564 secs.
+Final Lambda: 24977.244141
+
+--- Starting Global Memory Version ---
+GPU Global (Compute Only): 0.000456 secs.
+GPU Global (Total + Mem):  0.000608 secs.
+Final Lambda: 24977.244141
+
+================ Test 3 / 10 ================
+Power method in CPU starts
+*************************************
+*************************************
+CPU: run time = 0.001168 secs.
+Power method in CPU is finished
+
+--- Starting Unified Memory Version ---
+GPU Unified (Compute Only): 0.000442 secs.
+GPU Unified (Total + Mem): 0.000671 secs.
+Final Lambda: 24977.244141
+
+--- Starting Shared Memory Version ---
+GPU Shared (Compute Only): 0.000402 secs.
+GPU Shared (Total + Mem):  0.000557 secs.
+Final Lambda: 24977.244141
+
+--- Starting Global Memory Version ---
+GPU Global (Compute Only): 0.000457 secs.
+GPU Global (Total + Mem):  0.000614 secs.
+Final Lambda: 24977.244141
+
+================ Test 4 / 10 ================
+Power method in CPU starts
+*************************************
+*************************************
+CPU: run time = 0.001168 secs.
+Power method in CPU is finished
+
+--- Starting Unified Memory Version ---
+GPU Unified (Compute Only): 0.000450 secs.
+GPU Unified (Total + Mem): 0.000669 secs.
+Final Lambda: 24977.244141
+
+--- Starting Shared Memory Version ---
+GPU Shared (Compute Only): 0.000401 secs.
+GPU Shared (Total + Mem):  0.000555 secs.
+Final Lambda: 24977.244141
+
+--- Starting Global Memory Version ---
+GPU Global (Compute Only): 0.001396 secs.
+GPU Global (Total + Mem):  0.001546 secs.
+Final Lambda: 24977.242188
+
+================ Test 5 / 10 ================
+Power method in CPU starts
+*************************************
+*************************************
+CPU: run time = 0.001168 secs.
+Power method in CPU is finished
+
+--- Starting Unified Memory Version ---
+GPU Unified (Compute Only): 0.000682 secs.
+GPU Unified (Total + Mem): 0.000902 secs.
+Final Lambda: 24977.244141
+
+--- Starting Shared Memory Version ---
+GPU Shared (Compute Only): 0.000402 secs.
+GPU Shared (Total + Mem):  0.000555 secs.
+Final Lambda: 24977.244141
+
+--- Starting Global Memory Version ---
+GPU Global (Compute Only): 0.000456 secs.
+GPU Global (Total + Mem):  0.000606 secs.
+Final Lambda: 24977.244141
+
+================ Test 6 / 10 ================
+Power method in CPU starts
+*************************************
+*************************************
+CPU: run time = 0.001215 secs.
+Power method in CPU is finished
+
+--- Starting Unified Memory Version ---
+GPU Unified (Compute Only): 0.000441 secs.
+GPU Unified (Total + Mem): 0.000662 secs.
+Final Lambda: 24977.244141
+
+--- Starting Shared Memory Version ---
+GPU Shared (Compute Only): 0.000406 secs.
+GPU Shared (Total + Mem):  0.000561 secs.
+Final Lambda: 24977.244141
+
+--- Starting Global Memory Version ---
+GPU Global (Compute Only): 0.000461 secs.
+GPU Global (Total + Mem):  0.000611 secs.
+Final Lambda: 24977.244141
+
+================ Test 7 / 10 ================
+Power method in CPU starts
+*************************************
+*************************************
+CPU: run time = 0.001467 secs.
+Power method in CPU is finished
+
+--- Starting Unified Memory Version ---
+GPU Unified (Compute Only): 0.000457 secs.
+GPU Unified (Total + Mem): 0.000694 secs.
+Final Lambda: 24977.244141
+
+--- Starting Shared Memory Version ---
+GPU Shared (Compute Only): 0.000411 secs.
+GPU Shared (Total + Mem):  0.000575 secs.
+Final Lambda: 24977.244141
+
+--- Starting Global Memory Version ---
+GPU Global (Compute Only): 0.000469 secs.
+GPU Global (Total + Mem):  0.000627 secs.
+Final Lambda: 24977.244141
+
+================ Test 8 / 10 ================
+Power method in CPU starts
+*************************************
+*************************************
+CPU: run time = 0.001597 secs.
+Power method in CPU is finished
+
+--- Starting Unified Memory Version ---
+GPU Unified (Compute Only): 0.000534 secs.
+GPU Unified (Total + Mem): 0.000777 secs.
+Final Lambda: 24977.244141
+
+--- Starting Shared Memory Version ---
+GPU Shared (Compute Only): 0.000640 secs.
+GPU Shared (Total + Mem):  0.000807 secs.
+Final Lambda: 24977.244141
+
+--- Starting Global Memory Version ---
+GPU Global (Compute Only): 0.000485 secs.
+GPU Global (Total + Mem):  0.000643 secs.
+Final Lambda: 24977.244141
+
+================ Test 9 / 10 ================
+Power method in CPU starts
+*************************************
+*************************************
+CPU: run time = 0.001603 secs.
+Power method in CPU is finished
+
+--- Starting Unified Memory Version ---
+GPU Unified (Compute Only): 0.000453 secs.
+GPU Unified (Total + Mem): 0.000702 secs.
+Final Lambda: 24977.244141
+
+--- Starting Shared Memory Version ---
+GPU Shared (Compute Only): 0.000426 secs.
+GPU Shared (Total + Mem):  0.000586 secs.
+Final Lambda: 24977.244141
+
+--- Starting Global Memory Version ---
+GPU Global (Compute Only): 0.000653 secs.
+GPU Global (Total + Mem):  0.000810 secs.
+Final Lambda: 24977.244141
+
+================ Test 10 / 10 ================
+Power method in CPU starts
+*************************************
+*************************************
+CPU: run time = 0.001557 secs.
+Power method in CPU is finished
+
+--- Starting Unified Memory Version ---
+GPU Unified (Compute Only): 0.000707 secs.
+GPU Unified (Total + Mem): 0.000957 secs.
+Final Lambda: 24977.244141
+
+--- Starting Shared Memory Version ---
+GPU Shared (Compute Only): 0.000412 secs.
+GPU Shared (Total + Mem):  0.000577 secs.
+Final Lambda: 24977.244141
+
+--- Starting Global Memory Version ---
+GPU Global (Compute Only): 0.000470 secs.
+GPU Global (Total + Mem):  0.000628 secs.
+Final Lambda: 24977.244141
+------------------------------------------
+
+>>> RUNNING: Matrix Size 2000 | Block Size 64
+------------------------------------------
+This GPU has major architecture 8, minor 0 
+Using block size 64 
+Matrix size 2000 X 2000 
+
+================ Test 1 / 10 ================
+Power method in CPU starts
+*************************************
+*************************************
+CPU: run time = 0.016379 secs.
+Power method in CPU is finished
+
+--- Starting Unified Memory Version ---
+GPU Unified (Compute Only): 0.004592 secs.
+GPU Unified (Total + Mem): 0.078634 secs.
+Final Lambda: 100018.296875
+
+--- Starting Shared Memory Version ---
+GPU Shared (Compute Only): 0.006168 secs.
+GPU Shared (Total + Mem):  0.007321 secs.
+Final Lambda: 100018.304688
+
+--- Starting Global Memory Version ---
+GPU Global (Compute Only): 0.006212 secs.
+GPU Global (Total + Mem):  0.007220 secs.
+Final Lambda: 100018.304688
+
+================ Test 2 / 10 ================
+Power method in CPU starts
+*************************************
+*************************************
+CPU: run time = 0.015487 secs.
+Power method in CPU is finished
+
+--- Starting Unified Memory Version ---
+GPU Unified (Compute Only): 0.003522 secs.
+GPU Unified (Total + Mem): 0.005432 secs.
+Final Lambda: 100018.296875
+
+--- Starting Shared Memory Version ---
+GPU Shared (Compute Only): 0.004462 secs.
+GPU Shared (Total + Mem):  0.005477 secs.
+Final Lambda: 100018.312500
+
+--- Starting Global Memory Version ---
+GPU Global (Compute Only): 0.002686 secs.
+GPU Global (Total + Mem):  0.003685 secs.
+Final Lambda: 100018.304688
+
+================ Test 3 / 10 ================
+Power method in CPU starts
+*************************************
+*************************************
+CPU: run time = 0.015489 secs.
+Power method in CPU is finished
+
+--- Starting Unified Memory Version ---
+GPU Unified (Compute Only): 0.002110 secs.
+GPU Unified (Total + Mem): 0.003999 secs.
+Final Lambda: 100018.304688
+
+--- Starting Shared Memory Version ---
+GPU Shared (Compute Only): 0.002393 secs.
+GPU Shared (Total + Mem):  0.003407 secs.
+Final Lambda: 100018.304688
+
+--- Starting Global Memory Version ---
+GPU Global (Compute Only): 0.007813 secs.
+GPU Global (Total + Mem):  0.008813 secs.
+Final Lambda: 100018.304688
+
+================ Test 4 / 10 ================
+Power method in CPU starts
+*************************************
+*************************************
+CPU: run time = 0.015487 secs.
+Power method in CPU is finished
+
+--- Starting Unified Memory Version ---
+GPU Unified (Compute Only): 0.012313 secs.
+GPU Unified (Total + Mem): 0.014182 secs.
+Final Lambda: 100018.304688
+
+--- Starting Shared Memory Version ---
+GPU Shared (Compute Only): 0.002413 secs.
+GPU Shared (Total + Mem):  0.003422 secs.
+Final Lambda: 100018.312500
+
+--- Starting Global Memory Version ---
+GPU Global (Compute Only): 0.005105 secs.
+GPU Global (Total + Mem):  0.006111 secs.
+Final Lambda: 100018.296875
+
+================ Test 5 / 10 ================
+Power method in CPU starts
+*************************************
+*************************************
+CPU: run time = 0.015499 secs.
+Power method in CPU is finished
+
+--- Starting Unified Memory Version ---
+GPU Unified (Compute Only): 0.003170 secs.
+GPU Unified (Total + Mem): 0.005018 secs.
+Final Lambda: 100018.304688
+
+--- Starting Shared Memory Version ---
+GPU Shared (Compute Only): 0.006536 secs.
+GPU Shared (Total + Mem):  0.007542 secs.
+Final Lambda: 100018.304688
+
+--- Starting Global Memory Version ---
+GPU Global (Compute Only): 0.001328 secs.
+GPU Global (Total + Mem):  0.002328 secs.
+Final Lambda: 100018.304688
+
+================ Test 6 / 10 ================
+Power method in CPU starts
+*************************************
+*************************************
+CPU: run time = 0.015490 secs.
+Power method in CPU is finished
+
+--- Starting Unified Memory Version ---
+GPU Unified (Compute Only): 0.003179 secs.
+GPU Unified (Total + Mem): 0.005116 secs.
+Final Lambda: 100018.312500
+
+--- Starting Shared Memory Version ---
+GPU Shared (Compute Only): 0.004827 secs.
+GPU Shared (Total + Mem):  0.005831 secs.
+Final Lambda: 100018.304688
+
+--- Starting Global Memory Version ---
+GPU Global (Compute Only): 0.002139 secs.
+GPU Global (Total + Mem):  0.003135 secs.
+Final Lambda: 100018.289062
+
+================ Test 7 / 10 ================
+Power method in CPU starts
+*************************************
+*************************************
+CPU: run time = 0.015489 secs.
+Power method in CPU is finished
+
+--- Starting Unified Memory Version ---
+GPU Unified (Compute Only): 0.002058 secs.
+GPU Unified (Total + Mem): 0.003897 secs.
+Final Lambda: 100018.312500
+
+--- Starting Shared Memory Version ---
+GPU Shared (Compute Only): 0.003774 secs.
+GPU Shared (Total + Mem):  0.004790 secs.
+Final Lambda: 100018.312500
+
+--- Starting Global Memory Version ---
+GPU Global (Compute Only): 0.003757 secs.
+GPU Global (Total + Mem):  0.004755 secs.
+Final Lambda: 100018.304688
+
+================ Test 8 / 10 ================
+Power method in CPU starts
+*************************************
+*************************************
+CPU: run time = 0.015488 secs.
+Power method in CPU is finished
+
+--- Starting Unified Memory Version ---
+GPU Unified (Compute Only): 0.004921 secs.
+GPU Unified (Total + Mem): 0.006837 secs.
+Final Lambda: 100018.296875
+
+--- Starting Shared Memory Version ---
+GPU Shared (Compute Only): 0.002761 secs.
+GPU Shared (Total + Mem):  0.003769 secs.
+Final Lambda: 100018.312500
+
+--- Starting Global Memory Version ---
+GPU Global (Compute Only): 0.001334 secs.
+GPU Global (Total + Mem):  0.002339 secs.
+Final Lambda: 100018.304688
+
+================ Test 9 / 10 ================
+Power method in CPU starts
+*************************************
+*************************************
+CPU: run time = 0.015486 secs.
+Power method in CPU is finished
+
+--- Starting Unified Memory Version ---
+GPU Unified (Compute Only): 0.003855 secs.
+GPU Unified (Total + Mem): 0.005710 secs.
+Final Lambda: 100018.304688
+
+--- Starting Shared Memory Version ---
+GPU Shared (Compute Only): 0.003771 secs.
+GPU Shared (Total + Mem):  0.004779 secs.
+Final Lambda: 100018.304688
+
+--- Starting Global Memory Version ---
+GPU Global (Compute Only): 0.005652 secs.
+GPU Global (Total + Mem):  0.006653 secs.
+Final Lambda: 100018.304688
+
+================ Test 10 / 10 ================
+Power method in CPU starts
+*************************************
+*************************************
+CPU: run time = 0.015488 secs.
+Power method in CPU is finished
+
+--- Starting Unified Memory Version ---
+GPU Unified (Compute Only): 0.002071 secs.
+GPU Unified (Total + Mem): 0.003975 secs.
+Final Lambda: 100018.296875
+
+--- Starting Shared Memory Version ---
+GPU Shared (Compute Only): 0.004776 secs.
+GPU Shared (Total + Mem):  0.005781 secs.
+Final Lambda: 100018.304688
+
+--- Starting Global Memory Version ---
+GPU Global (Compute Only): 0.003498 secs.
+GPU Global (Total + Mem):  0.004503 secs.
+Final Lambda: 100018.304688
+------------------------------------------
+
+>>> RUNNING: Matrix Size 4000 | Block Size 64
+------------------------------------------
+This GPU has major architecture 8, minor 0 
+Using block size 64 
+Matrix size 4000 X 4000 
+
+================ Test 1 / 10 ================
+Power method in CPU starts
+*************************************
+*************************************
+CPU: run time = 0.048897 secs.
+Power method in CPU is finished
+
+--- Starting Unified Memory Version ---
+GPU Unified (Compute Only): 0.004744 secs.
+GPU Unified (Total + Mem): 0.086489 secs.
+Final Lambda: 199997.671875
+
+--- Starting Shared Memory Version ---
+GPU Shared (Compute Only): 0.004342 secs.
+GPU Shared (Total + Mem):  0.009707 secs.
+Final Lambda: 199997.625000
+
+--- Starting Global Memory Version ---
+GPU Global (Compute Only): 0.013817 secs.
+GPU Global (Total + Mem):  0.019677 secs.
+Final Lambda: 199997.625000
+
+================ Test 2 / 10 ================
+Power method in CPU starts
+*************************************
+*************************************
+CPU: run time = 0.045886 secs.
+Power method in CPU is finished
+
+--- Starting Unified Memory Version ---
+GPU Unified (Compute Only): 0.005117 secs.
+GPU Unified (Total + Mem): 0.011587 secs.
+Final Lambda: 199997.656250
+
+--- Starting Shared Memory Version ---
+GPU Shared (Compute Only): 0.006500 secs.
+GPU Shared (Total + Mem):  0.011612 secs.
+Final Lambda: 199997.656250
+
+--- Starting Global Memory Version ---
+GPU Global (Compute Only): 0.008852 secs.
+GPU Global (Total + Mem):  0.014482 secs.
+Final Lambda: 199997.640625
+
+================ Test 3 / 10 ================
+Power method in CPU starts
+*************************************
+*************************************
+CPU: run time = 0.051978 secs.
+Power method in CPU is finished
+
+--- Starting Unified Memory Version ---
+GPU Unified (Compute Only): 0.005096 secs.
+GPU Unified (Total + Mem): 0.011667 secs.
+Final Lambda: 199997.640625
+
+--- Starting Shared Memory Version ---
+GPU Shared (Compute Only): 0.005070 secs.
+GPU Shared (Total + Mem):  0.010258 secs.
+Final Lambda: 199997.703125
+
+--- Starting Global Memory Version ---
+GPU Global (Compute Only): 0.004928 secs.
+GPU Global (Total + Mem):  0.010772 secs.
+Final Lambda: 199997.640625
+
+================ Test 4 / 10 ================
+Power method in CPU starts
+*************************************
+*************************************
+CPU: run time = 0.045465 secs.
+Power method in CPU is finished
+
+--- Starting Unified Memory Version ---
+GPU Unified (Compute Only): 0.006630 secs.
+GPU Unified (Total + Mem): 0.013155 secs.
+Final Lambda: 199997.640625
+
+--- Starting Shared Memory Version ---
+GPU Shared (Compute Only): 0.009423 secs.
+GPU Shared (Total + Mem):  0.014498 secs.
+Final Lambda: 199997.656250
+
+--- Starting Global Memory Version ---
+GPU Global (Compute Only): 0.015760 secs.
+GPU Global (Total + Mem):  0.021354 secs.
+Final Lambda: 199997.656250
+
+================ Test 5 / 10 ================
+Power method in CPU starts
+*************************************
+*************************************
+CPU: run time = 0.045440 secs.
+Power method in CPU is finished
+
+--- Starting Unified Memory Version ---
+GPU Unified (Compute Only): 0.012422 secs.
+GPU Unified (Total + Mem): 0.018921 secs.
+Final Lambda: 199997.640625
+
+--- Starting Shared Memory Version ---
+GPU Shared (Compute Only): 0.005805 secs.
+GPU Shared (Total + Mem):  0.010880 secs.
+Final Lambda: 199997.640625
+
+--- Starting Global Memory Version ---
+GPU Global (Compute Only): 0.013778 secs.
+GPU Global (Total + Mem):  0.019358 secs.
+Final Lambda: 199997.656250
+
+================ Test 6 / 10 ================
+Power method in CPU starts
+*************************************
+*************************************
+CPU: run time = 0.045449 secs.
+Power method in CPU is finished
+
+--- Starting Unified Memory Version ---
+GPU Unified (Compute Only): 0.004438 secs.
+GPU Unified (Total + Mem): 0.010956 secs.
+Final Lambda: 199997.656250
+
+--- Starting Shared Memory Version ---
+GPU Shared (Compute Only): 0.003626 secs.
+GPU Shared (Total + Mem):  0.008696 secs.
+Final Lambda: 199997.640625
+
+--- Starting Global Memory Version ---
+GPU Global (Compute Only): 0.005902 secs.
+GPU Global (Total + Mem):  0.011486 secs.
+Final Lambda: 199997.640625
+
+================ Test 7 / 10 ================
+Power method in CPU starts
+*************************************
+*************************************
+CPU: run time = 0.045383 secs.
+Power method in CPU is finished
+
+--- Starting Unified Memory Version ---
+GPU Unified (Compute Only): 0.011662 secs.
+GPU Unified (Total + Mem): 0.018177 secs.
+Final Lambda: 199997.609375
+
+--- Starting Shared Memory Version ---
+GPU Shared (Compute Only): 0.004346 secs.
+GPU Shared (Total + Mem):  0.009411 secs.
+Final Lambda: 199997.640625
+
+--- Starting Global Memory Version ---
+GPU Global (Compute Only): 0.021675 secs.
+GPU Global (Total + Mem):  0.027279 secs.
+Final Lambda: 199997.656250
+
+================ Test 8 / 10 ================
+Power method in CPU starts
+*************************************
+*************************************
+CPU: run time = 0.045431 secs.
+Power method in CPU is finished
+
+--- Starting Unified Memory Version ---
+GPU Unified (Compute Only): 0.005859 secs.
+GPU Unified (Total + Mem): 0.012370 secs.
+Final Lambda: 199997.640625
+
+--- Starting Shared Memory Version ---
+GPU Shared (Compute Only): 0.014539 secs.
+GPU Shared (Total + Mem):  0.019612 secs.
+Final Lambda: 199997.625000
+
+--- Starting Global Memory Version ---
+GPU Global (Compute Only): 0.004913 secs.
+GPU Global (Total + Mem):  0.010496 secs.
+Final Lambda: 199997.640625
+
+================ Test 9 / 10 ================
+Power method in CPU starts
+*************************************
+*************************************
+CPU: run time = 0.045382 secs.
+Power method in CPU is finished
+
+--- Starting Unified Memory Version ---
+GPU Unified (Compute Only): 0.016185 secs.
+GPU Unified (Total + Mem): 0.022725 secs.
+Final Lambda: 199997.640625
+
+--- Starting Shared Memory Version ---
+GPU Shared (Compute Only): 0.006559 secs.
+GPU Shared (Total + Mem):  0.011613 secs.
+Final Lambda: 199997.640625
+
+--- Starting Global Memory Version ---
+GPU Global (Compute Only): 0.004910 secs.
+GPU Global (Total + Mem):  0.010504 secs.
+Final Lambda: 199997.671875
+
+================ Test 10 / 10 ================
+Power method in CPU starts
+*************************************
+*************************************
+CPU: run time = 0.045368 secs.
+Power method in CPU is finished
+
+--- Starting Unified Memory Version ---
+GPU Unified (Compute Only): 0.004384 secs.
+GPU Unified (Total + Mem): 0.010907 secs.
+Final Lambda: 199997.671875
+
+--- Starting Shared Memory Version ---
+GPU Shared (Compute Only): 0.007282 secs.
+GPU Shared (Total + Mem):  0.012351 secs.
+Final Lambda: 199997.640625
+
+--- Starting Global Memory Version ---
+GPU Global (Compute Only): 0.007876 secs.
+GPU Global (Total + Mem):  0.013451 secs.
+Final Lambda: 199997.640625
+------------------------------------------
+
+>>> RUNNING: Matrix Size 8000 | Block Size 64
+------------------------------------------
+This GPU has major architecture 8, minor 0 
+Using block size 64 
+Matrix size 8000 X 8000 
+
+================ Test 1 / 10 ================
+Power method in CPU starts
+*************************************
+*************************************
+CPU: run time = 0.266713 secs.
+Power method in CPU is finished
+
+--- Starting Unified Memory Version ---
+GPU Unified (Compute Only): 0.028579 secs.
+GPU Unified (Total + Mem): 0.130192 secs.
+Final Lambda: 399990.187500
+
+--- Starting Shared Memory Version ---
+GPU Shared (Compute Only): 0.017826 secs.
+GPU Shared (Total + Mem):  0.039924 secs.
+Final Lambda: 399990.250000
+
+--- Starting Global Memory Version ---
+GPU Global (Compute Only): 0.021208 secs.
+GPU Global (Total + Mem):  0.048364 secs.
+Final Lambda: 399990.218750
+
+================ Test 2 / 10 ================
+Power method in CPU starts
+*************************************
+*************************************
+CPU: run time = 0.267061 secs.
+Power method in CPU is finished
+
+--- Starting Unified Memory Version ---
+GPU Unified (Compute Only): 0.023187 secs.
+GPU Unified (Total + Mem): 0.048874 secs.
+Final Lambda: 399990.281250
+
+--- Starting Shared Memory Version ---
+GPU Shared (Compute Only): 0.012448 secs.
+GPU Shared (Total + Mem):  0.034383 secs.
+Final Lambda: 399990.281250
+
+--- Starting Global Memory Version ---
+GPU Global (Compute Only): 0.024705 secs.
+GPU Global (Total + Mem):  0.051708 secs.
+Final Lambda: 399990.218750
+
+================ Test 3 / 10 ================
+Power method in CPU starts
+*************************************
+*************************************
+CPU: run time = 0.269474 secs.
+Power method in CPU is finished
+
+--- Starting Unified Memory Version ---
+GPU Unified (Compute Only): 0.019690 secs.
+GPU Unified (Total + Mem): 0.045306 secs.
+Final Lambda: 399990.250000
+
+--- Starting Shared Memory Version ---
+GPU Shared (Compute Only): 0.012442 secs.
+GPU Shared (Total + Mem):  0.034390 secs.
+Final Lambda: 399990.375000
+
+--- Starting Global Memory Version ---
+GPU Global (Compute Only): 0.070616 secs.
+GPU Global (Total + Mem):  0.097568 secs.
+Final Lambda: 399990.250000
+
+================ Test 4 / 10 ================
+Power method in CPU starts
+*************************************
+*************************************
+CPU: run time = 0.267388 secs.
+Power method in CPU is finished
+
+--- Starting Unified Memory Version ---
+GPU Unified (Compute Only): 0.019601 secs.
+GPU Unified (Total + Mem): 0.045258 secs.
+Final Lambda: 399990.218750
+
+--- Starting Shared Memory Version ---
+GPU Shared (Compute Only): 0.026585 secs.
+GPU Shared (Total + Mem):  0.048527 secs.
+Final Lambda: 399990.281250
+
+--- Starting Global Memory Version ---
+GPU Global (Compute Only): 0.056497 secs.
+GPU Global (Total + Mem):  0.083636 secs.
+Final Lambda: 399990.343750
+
+================ Test 5 / 10 ================
+Power method in CPU starts
+*************************************
+*************************************
+CPU: run time = 0.267215 secs.
+Power method in CPU is finished
+
+--- Starting Unified Memory Version ---
+GPU Unified (Compute Only): 0.067939 secs.
+GPU Unified (Total + Mem): 0.093547 secs.
+Final Lambda: 399990.187500
+
+--- Starting Shared Memory Version ---
+GPU Shared (Compute Only): 0.015965 secs.
+GPU Shared (Total + Mem):  0.038019 secs.
+Final Lambda: 399990.375000
+
+--- Starting Global Memory Version ---
+GPU Global (Compute Only): 0.056474 secs.
+GPU Global (Total + Mem):  0.083395 secs.
+Final Lambda: 399990.312500
+
+================ Test 6 / 10 ================
+Power method in CPU starts
+*************************************
+*************************************
+CPU: run time = 0.266833 secs.
+Power method in CPU is finished
+
+--- Starting Unified Memory Version ---
+GPU Unified (Compute Only): 0.017848 secs.
+GPU Unified (Total + Mem): 0.043403 secs.
+Final Lambda: 399990.312500
+
+--- Starting Shared Memory Version ---
+GPU Shared (Compute Only): 0.028464 secs.
+GPU Shared (Total + Mem):  0.050421 secs.
+Final Lambda: 399990.312500
+
+--- Starting Global Memory Version ---
+GPU Global (Compute Only): 0.081192 secs.
+GPU Global (Total + Mem):  0.108186 secs.
+Final Lambda: 399990.250000
+
+================ Test 7 / 10 ================
+Power method in CPU starts
+*************************************
+*************************************
+CPU: run time = 0.267044 secs.
+Power method in CPU is finished
+
+--- Starting Unified Memory Version ---
+GPU Unified (Compute Only): 0.023138 secs.
+GPU Unified (Total + Mem): 0.048759 secs.
+Final Lambda: 399990.375000
+
+--- Starting Shared Memory Version ---
+GPU Shared (Compute Only): 0.047969 secs.
+GPU Shared (Total + Mem):  0.069900 secs.
+Final Lambda: 399990.187500
+
+--- Starting Global Memory Version ---
+GPU Global (Compute Only): 0.113007 secs.
+GPU Global (Total + Mem):  0.140465 secs.
+Final Lambda: 399990.218750
+
+================ Test 8 / 10 ================
+Power method in CPU starts
+*************************************
+*************************************
+CPU: run time = 0.267472 secs.
+Power method in CPU is finished
+
+--- Starting Unified Memory Version ---
+GPU Unified (Compute Only): 0.037387 secs.
+GPU Unified (Total + Mem): 0.063143 secs.
+Final Lambda: 399990.343750
+
+--- Starting Shared Memory Version ---
+GPU Shared (Compute Only): 0.017701 secs.
+GPU Shared (Total + Mem):  0.039764 secs.
+Final Lambda: 399990.281250
+
+--- Starting Global Memory Version ---
+GPU Global (Compute Only): 0.017632 secs.
+GPU Global (Total + Mem):  0.044629 secs.
+Final Lambda: 399990.375000
+
+================ Test 9 / 10 ================
+Power method in CPU starts
+*************************************
+*************************************
+CPU: run time = 0.266968 secs.
+Power method in CPU is finished
+
+--- Starting Unified Memory Version ---
+GPU Unified (Compute Only): 0.016045 secs.
+GPU Unified (Total + Mem): 0.041613 secs.
+Final Lambda: 399990.312500
+
+--- Starting Shared Memory Version ---
+GPU Shared (Compute Only): 0.015990 secs.
+GPU Shared (Total + Mem):  0.037859 secs.
+Final Lambda: 399990.250000
+
+--- Starting Global Memory Version ---
+GPU Global (Compute Only): 0.021180 secs.
+GPU Global (Total + Mem):  0.048119 secs.
+Final Lambda: 399990.312500
+
+================ Test 10 / 10 ================
+Power method in CPU starts
+*************************************
+*************************************
+CPU: run time = 0.266503 secs.
+Power method in CPU is finished
+
+--- Starting Unified Memory Version ---
+GPU Unified (Compute Only): 0.037446 secs.
+GPU Unified (Total + Mem): 0.063076 secs.
+Final Lambda: 399990.281250
+
+--- Starting Shared Memory Version ---
+GPU Shared (Compute Only): 0.008836 secs.
+GPU Shared (Total + Mem):  0.030886 secs.
+Final Lambda: 399990.281250
+
+--- Starting Global Memory Version ---
+GPU Global (Compute Only): 0.024706 secs.
+GPU Global (Total + Mem):  0.051631 secs.
+Final Lambda: 399990.312500
+------------------------------------------
+
+##########################################
+SETTING CONSTANT BLOCK_SIZE = 100
+##########################################
+Recompiling for Block Size 100...
+nvcc warning : Support for offline compilation for architectures prior to '<compute/sm/lto>_75' will be removed in a future release (Use -Wno-deprecated-gpu-targets to suppress warning).
+
+>>> RUNNING: Matrix Size 50 | Block Size 100
+------------------------------------------
+This GPU has major architecture 8, minor 0 
+Using block size 100 
+Matrix size 50 X 50 
+
+================ Test 1 / 10 ================
+Power method in CPU starts
+*************************************
+*************************************
+CPU: run time = 0.000008 secs.
+Power method in CPU is finished
+
+--- Starting Unified Memory Version ---
+GPU Unified (Compute Only): 0.002066 secs.
+GPU Unified (Total + Mem): 0.079786 secs.
+Final Lambda: 2505.772461
+
+--- Starting Shared Memory Version ---
+GPU Shared (Compute Only): 0.000392 secs.
+GPU Shared (Total + Mem):  0.000500 secs.
+Final Lambda: 2505.772461
+
+--- Starting Global Memory Version ---
+GPU Global (Compute Only): 0.000370 secs.
+GPU Global (Total + Mem):  0.000446 secs.
+Final Lambda: 2505.772461
+
+================ Test 2 / 10 ================
+Power method in CPU starts
+*************************************
+*************************************
+CPU: run time = 0.000008 secs.
+Power method in CPU is finished
+
+--- Starting Unified Memory Version ---
+GPU Unified (Compute Only): 0.000460 secs.
+GPU Unified (Total + Mem): 0.000564 secs.
+Final Lambda: 2505.772461
+
+--- Starting Shared Memory Version ---
+GPU Shared (Compute Only): 0.000390 secs.
+GPU Shared (Total + Mem):  0.000467 secs.
+Final Lambda: 2505.772461
+
+--- Starting Global Memory Version ---
+GPU Global (Compute Only): 0.000360 secs.
+GPU Global (Total + Mem):  0.000437 secs.
+Final Lambda: 2505.772461
+
+================ Test 3 / 10 ================
+Power method in CPU starts
+*************************************
+*************************************
+CPU: run time = 0.000007 secs.
+Power method in CPU is finished
+
+--- Starting Unified Memory Version ---
+GPU Unified (Compute Only): 0.000457 secs.
+GPU Unified (Total + Mem): 0.000546 secs.
+Final Lambda: 2505.772461
+
+--- Starting Shared Memory Version ---
+GPU Shared (Compute Only): 0.000384 secs.
+GPU Shared (Total + Mem):  0.000460 secs.
+Final Lambda: 2505.772461
+
+--- Starting Global Memory Version ---
+GPU Global (Compute Only): 0.000363 secs.
+GPU Global (Total + Mem):  0.000438 secs.
+Final Lambda: 2505.772461
+
+================ Test 4 / 10 ================
+Power method in CPU starts
+*************************************
+*************************************
+CPU: run time = 0.000008 secs.
+Power method in CPU is finished
+
+--- Starting Unified Memory Version ---
+GPU Unified (Compute Only): 0.000454 secs.
+GPU Unified (Total + Mem): 0.000543 secs.
+Final Lambda: 2505.772461
+
+--- Starting Shared Memory Version ---
+GPU Shared (Compute Only): 0.000383 secs.
+GPU Shared (Total + Mem):  0.000460 secs.
+Final Lambda: 2505.772461
+
+--- Starting Global Memory Version ---
+GPU Global (Compute Only): 0.000361 secs.
+GPU Global (Total + Mem):  0.000435 secs.
+Final Lambda: 2505.772461
+
+================ Test 5 / 10 ================
+Power method in CPU starts
+*************************************
+*************************************
+CPU: run time = 0.000008 secs.
+Power method in CPU is finished
+
+--- Starting Unified Memory Version ---
+GPU Unified (Compute Only): 0.000461 secs.
+GPU Unified (Total + Mem): 0.000546 secs.
+Final Lambda: 2505.772461
+
+--- Starting Shared Memory Version ---
+GPU Shared (Compute Only): 0.000385 secs.
+GPU Shared (Total + Mem):  0.000461 secs.
+Final Lambda: 2505.772461
+
+--- Starting Global Memory Version ---
+GPU Global (Compute Only): 0.000362 secs.
+GPU Global (Total + Mem):  0.000436 secs.
+Final Lambda: 2505.772461
+
+================ Test 6 / 10 ================
+Power method in CPU starts
+*************************************
+*************************************
+CPU: run time = 0.000007 secs.
+Power method in CPU is finished
+
+--- Starting Unified Memory Version ---
+GPU Unified (Compute Only): 0.000453 secs.
+GPU Unified (Total + Mem): 0.000536 secs.
+Final Lambda: 2505.772461
+
+--- Starting Shared Memory Version ---
+GPU Shared (Compute Only): 0.000387 secs.
+GPU Shared (Total + Mem):  0.000463 secs.
+Final Lambda: 2505.772461
+
+--- Starting Global Memory Version ---
+GPU Global (Compute Only): 0.000368 secs.
+GPU Global (Total + Mem):  0.000441 secs.
+Final Lambda: 2505.772461
+
+================ Test 7 / 10 ================
+Power method in CPU starts
+*************************************
+*************************************
+CPU: run time = 0.000007 secs.
+Power method in CPU is finished
+
+--- Starting Unified Memory Version ---
+GPU Unified (Compute Only): 0.000473 secs.
+GPU Unified (Total + Mem): 0.000558 secs.
+Final Lambda: 2505.772461
+
+--- Starting Shared Memory Version ---
+GPU Shared (Compute Only): 0.000385 secs.
+GPU Shared (Total + Mem):  0.000462 secs.
+Final Lambda: 2505.772461
+
+--- Starting Global Memory Version ---
+GPU Global (Compute Only): 0.000361 secs.
+GPU Global (Total + Mem):  0.000436 secs.
+Final Lambda: 2505.772461
+
+================ Test 8 / 10 ================
+Power method in CPU starts
+*************************************
+*************************************
+CPU: run time = 0.000007 secs.
+Power method in CPU is finished
+
+--- Starting Unified Memory Version ---
+GPU Unified (Compute Only): 0.000457 secs.
+GPU Unified (Total + Mem): 0.000539 secs.
+Final Lambda: 2505.772461
+
+--- Starting Shared Memory Version ---
+GPU Shared (Compute Only): 0.000384 secs.
+GPU Shared (Total + Mem):  0.000460 secs.
+Final Lambda: 2505.772461
+
+--- Starting Global Memory Version ---
+GPU Global (Compute Only): 0.000360 secs.
+GPU Global (Total + Mem):  0.000434 secs.
+Final Lambda: 2505.772461
+
+================ Test 9 / 10 ================
+Power method in CPU starts
+*************************************
+*************************************
+CPU: run time = 0.000007 secs.
+Power method in CPU is finished
+
+--- Starting Unified Memory Version ---
+GPU Unified (Compute Only): 0.000453 secs.
+GPU Unified (Total + Mem): 0.000535 secs.
+Final Lambda: 2505.772461
+
+--- Starting Shared Memory Version ---
+GPU Shared (Compute Only): 0.000389 secs.
+GPU Shared (Total + Mem):  0.000465 secs.
+Final Lambda: 2505.772461
+
+--- Starting Global Memory Version ---
+GPU Global (Compute Only): 0.000359 secs.
+GPU Global (Total + Mem):  0.000432 secs.
+Final Lambda: 2505.772461
+
+================ Test 10 / 10 ================
+Power method in CPU starts
+*************************************
+*************************************
+CPU: run time = 0.000007 secs.
+Power method in CPU is finished
+
+--- Starting Unified Memory Version ---
+GPU Unified (Compute Only): 0.000453 secs.
+GPU Unified (Total + Mem): 0.000533 secs.
+Final Lambda: 2505.772461
+
+--- Starting Shared Memory Version ---
+GPU Shared (Compute Only): 0.000385 secs.
+GPU Shared (Total + Mem):  0.000461 secs.
+Final Lambda: 2505.772461
+
+--- Starting Global Memory Version ---
+GPU Global (Compute Only): 0.000366 secs.
+GPU Global (Total + Mem):  0.000439 secs.
+Final Lambda: 2505.772461
+------------------------------------------
+
+>>> RUNNING: Matrix Size 500 | Block Size 100
+------------------------------------------
+This GPU has major architecture 8, minor 0 
+Using block size 100 
+Matrix size 500 X 500 
+
+================ Test 1 / 10 ================
+Power method in CPU starts
+*************************************
+*************************************
+CPU: run time = 0.001169 secs.
+Power method in CPU is finished
+
+--- Starting Unified Memory Version ---
+GPU Unified (Compute Only): 0.001923 secs.
+GPU Unified (Total + Mem): 0.086368 secs.
+Final Lambda: 24977.238281
+
+--- Starting Shared Memory Version ---
+GPU Shared (Compute Only): 0.000457 secs.
+GPU Shared (Total + Mem):  0.000670 secs.
+Final Lambda: 24977.238281
+
+--- Starting Global Memory Version ---
+GPU Global (Compute Only): 0.000382 secs.
+GPU Global (Total + Mem):  0.000545 secs.
+Final Lambda: 24977.238281
+
+================ Test 2 / 10 ================
+Power method in CPU starts
+*************************************
+*************************************
+CPU: run time = 0.001166 secs.
+Power method in CPU is finished
+
+--- Starting Unified Memory Version ---
+GPU Unified (Compute Only): 0.000507 secs.
+GPU Unified (Total + Mem): 0.000744 secs.
+Final Lambda: 24977.238281
+
+--- Starting Shared Memory Version ---
+GPU Shared (Compute Only): 0.000455 secs.
+GPU Shared (Total + Mem):  0.000610 secs.
+Final Lambda: 24977.238281
+
+--- Starting Global Memory Version ---
+GPU Global (Compute Only): 0.000364 secs.
+GPU Global (Total + Mem):  0.000516 secs.
+Final Lambda: 24977.238281
+
+================ Test 3 / 10 ================
+Power method in CPU starts
+*************************************
+*************************************
+CPU: run time = 0.001166 secs.
+Power method in CPU is finished
+
+--- Starting Unified Memory Version ---
+GPU Unified (Compute Only): 0.000500 secs.
+GPU Unified (Total + Mem): 0.000737 secs.
+Final Lambda: 24977.238281
+
+--- Starting Shared Memory Version ---
+GPU Shared (Compute Only): 0.000458 secs.
+GPU Shared (Total + Mem):  0.000613 secs.
+Final Lambda: 24977.238281
+
+--- Starting Global Memory Version ---
+GPU Global (Compute Only): 0.000376 secs.
+GPU Global (Total + Mem):  0.000535 secs.
+Final Lambda: 24977.238281
+
+================ Test 4 / 10 ================
+Power method in CPU starts
+*************************************
+*************************************
+CPU: run time = 0.001597 secs.
+Power method in CPU is finished
+
+--- Starting Unified Memory Version ---
+GPU Unified (Compute Only): 0.000518 secs.
+GPU Unified (Total + Mem): 0.000776 secs.
+Final Lambda: 24977.238281
+
+--- Starting Shared Memory Version ---
+GPU Shared (Compute Only): 0.000465 secs.
+GPU Shared (Total + Mem):  0.000629 secs.
+Final Lambda: 24977.238281
+
+--- Starting Global Memory Version ---
+GPU Global (Compute Only): 0.000377 secs.
+GPU Global (Total + Mem):  0.000535 secs.
+Final Lambda: 24977.238281
+
+================ Test 5 / 10 ================
+Power method in CPU starts
+*************************************
+*************************************
+CPU: run time = 0.001594 secs.
+Power method in CPU is finished
+
+--- Starting Unified Memory Version ---
+GPU Unified (Compute Only): 0.000516 secs.
+GPU Unified (Total + Mem): 0.000770 secs.
+Final Lambda: 24977.238281
+
+--- Starting Shared Memory Version ---
+GPU Shared (Compute Only): 0.000468 secs.
+GPU Shared (Total + Mem):  0.000631 secs.
+Final Lambda: 24977.238281
+
+--- Starting Global Memory Version ---
+GPU Global (Compute Only): 0.000382 secs.
+GPU Global (Total + Mem):  0.000540 secs.
+Final Lambda: 24977.238281
+
+================ Test 6 / 10 ================
+Power method in CPU starts
+*************************************
+*************************************
+CPU: run time = 0.001548 secs.
+Power method in CPU is finished
+
+--- Starting Unified Memory Version ---
+GPU Unified (Compute Only): 0.000503 secs.
+GPU Unified (Total + Mem): 0.000746 secs.
+Final Lambda: 24977.238281
+
+--- Starting Shared Memory Version ---
+GPU Shared (Compute Only): 0.000453 secs.
+GPU Shared (Total + Mem):  0.000606 secs.
+Final Lambda: 24977.238281
+
+--- Starting Global Memory Version ---
+GPU Global (Compute Only): 0.000363 secs.
+GPU Global (Total + Mem):  0.000513 secs.
+Final Lambda: 24977.238281
+
+================ Test 7 / 10 ================
+Power method in CPU starts
+*************************************
+*************************************
+CPU: run time = 0.001168 secs.
+Power method in CPU is finished
+
+--- Starting Unified Memory Version ---
+GPU Unified (Compute Only): 0.000499 secs.
+GPU Unified (Total + Mem): 0.000715 secs.
+Final Lambda: 24977.238281
+
+--- Starting Shared Memory Version ---
+GPU Shared (Compute Only): 0.000452 secs.
+GPU Shared (Total + Mem):  0.000605 secs.
+Final Lambda: 24977.238281
+
+--- Starting Global Memory Version ---
+GPU Global (Compute Only): 0.000364 secs.
+GPU Global (Total + Mem):  0.000513 secs.
+Final Lambda: 24977.238281
+
+================ Test 8 / 10 ================
+Power method in CPU starts
+*************************************
+*************************************
+CPU: run time = 0.001165 secs.
+Power method in CPU is finished
+
+--- Starting Unified Memory Version ---
+GPU Unified (Compute Only): 0.000496 secs.
+GPU Unified (Total + Mem): 0.000713 secs.
+Final Lambda: 24977.238281
+
+--- Starting Shared Memory Version ---
+GPU Shared (Compute Only): 0.000457 secs.
+GPU Shared (Total + Mem):  0.000611 secs.
+Final Lambda: 24977.238281
+
+--- Starting Global Memory Version ---
+GPU Global (Compute Only): 0.000370 secs.
+GPU Global (Total + Mem):  0.000519 secs.
+Final Lambda: 24977.238281
+
+================ Test 9 / 10 ================
+Power method in CPU starts
+*************************************
+*************************************
+CPU: run time = 0.001165 secs.
+Power method in CPU is finished
+
+--- Starting Unified Memory Version ---
+GPU Unified (Compute Only): 0.000508 secs.
+GPU Unified (Total + Mem): 0.000723 secs.
+Final Lambda: 24977.238281
+
+--- Starting Shared Memory Version ---
+GPU Shared (Compute Only): 0.000449 secs.
+GPU Shared (Total + Mem):  0.000602 secs.
+Final Lambda: 24977.238281
+
+--- Starting Global Memory Version ---
+GPU Global (Compute Only): 0.000367 secs.
+GPU Global (Total + Mem):  0.000516 secs.
+Final Lambda: 24977.238281
+
+================ Test 10 / 10 ================
+Power method in CPU starts
+*************************************
+*************************************
+CPU: run time = 0.001165 secs.
+Power method in CPU is finished
+
+--- Starting Unified Memory Version ---
+GPU Unified (Compute Only): 0.000506 secs.
+GPU Unified (Total + Mem): 0.000723 secs.
+Final Lambda: 24977.238281
+
+--- Starting Shared Memory Version ---
+GPU Shared (Compute Only): 0.000452 secs.
+GPU Shared (Total + Mem):  0.000604 secs.
+Final Lambda: 24977.238281
+
+--- Starting Global Memory Version ---
+GPU Global (Compute Only): 0.000363 secs.
+GPU Global (Total + Mem):  0.000513 secs.
+Final Lambda: 24977.238281
+------------------------------------------
+
+>>> RUNNING: Matrix Size 2000 | Block Size 100
+------------------------------------------
+This GPU has major architecture 8, minor 0 
+Using block size 100 
+Matrix size 2000 X 2000 
+
+================ Test 1 / 10 ================
+Power method in CPU starts
+*************************************
+*************************************
+CPU: run time = 0.016373 secs.
+Power method in CPU is finished
+
+--- Starting Unified Memory Version ---
+GPU Unified (Compute Only): 0.005668 secs.
+GPU Unified (Total + Mem): 0.087106 secs.
+Final Lambda: 100018.296875
+
+--- Starting Shared Memory Version ---
+GPU Shared (Compute Only): 0.002204 secs.
+GPU Shared (Total + Mem):  0.003365 secs.
+Final Lambda: 100018.289062
+
+--- Starting Global Memory Version ---
+GPU Global (Compute Only): 0.001915 secs.
+GPU Global (Total + Mem):  0.002924 secs.
+Final Lambda: 100018.296875
+
+================ Test 2 / 10 ================
+Power method in CPU starts
+*************************************
+*************************************
+CPU: run time = 0.015488 secs.
+Power method in CPU is finished
+
+--- Starting Unified Memory Version ---
+GPU Unified (Compute Only): 0.003863 secs.
+GPU Unified (Total + Mem): 0.005774 secs.
+Final Lambda: 100018.296875
+
+--- Starting Shared Memory Version ---
+GPU Shared (Compute Only): 0.002822 secs.
+GPU Shared (Total + Mem):  0.003856 secs.
+Final Lambda: 100018.296875
+
+--- Starting Global Memory Version ---
+GPU Global (Compute Only): 0.001903 secs.
+GPU Global (Total + Mem):  0.002910 secs.
+Final Lambda: 100018.296875
+
+================ Test 3 / 10 ================
+Power method in CPU starts
+*************************************
+*************************************
+CPU: run time = 0.015489 secs.
+Power method in CPU is finished
+
+--- Starting Unified Memory Version ---
+GPU Unified (Compute Only): 0.001922 secs.
+GPU Unified (Total + Mem): 0.003798 secs.
+Final Lambda: 100018.296875
+
+--- Starting Shared Memory Version ---
+GPU Shared (Compute Only): 0.002830 secs.
+GPU Shared (Total + Mem):  0.003836 secs.
+Final Lambda: 100018.304688
+
+--- Starting Global Memory Version ---
+GPU Global (Compute Only): 0.001622 secs.
+GPU Global (Total + Mem):  0.002620 secs.
+Final Lambda: 100018.312500
+
+================ Test 4 / 10 ================
+Power method in CPU starts
+*************************************
+*************************************
+CPU: run time = 0.015493 secs.
+Power method in CPU is finished
+
+--- Starting Unified Memory Version ---
+GPU Unified (Compute Only): 0.001919 secs.
+GPU Unified (Total + Mem): 0.003814 secs.
+Final Lambda: 100018.296875
+
+--- Starting Shared Memory Version ---
+GPU Shared (Compute Only): 0.001880 secs.
+GPU Shared (Total + Mem):  0.002883 secs.
+Final Lambda: 100018.296875
+
+--- Starting Global Memory Version ---
+GPU Global (Compute Only): 0.002172 secs.
+GPU Global (Total + Mem):  0.003174 secs.
+Final Lambda: 100018.312500
+
+================ Test 5 / 10 ================
+Power method in CPU starts
+*************************************
+*************************************
+CPU: run time = 0.015486 secs.
+Power method in CPU is finished
+
+--- Starting Unified Memory Version ---
+GPU Unified (Compute Only): 0.004522 secs.
+GPU Unified (Total + Mem): 0.006374 secs.
+Final Lambda: 100018.289062
+
+--- Starting Shared Memory Version ---
+GPU Shared (Compute Only): 0.001884 secs.
+GPU Shared (Total + Mem):  0.002888 secs.
+Final Lambda: 100018.296875
+
+--- Starting Global Memory Version ---
+GPU Global (Compute Only): 0.001904 secs.
+GPU Global (Total + Mem):  0.002902 secs.
+Final Lambda: 100018.289062
+
+================ Test 6 / 10 ================
+Power method in CPU starts
+*************************************
+*************************************
+CPU: run time = 0.015505 secs.
+Power method in CPU is finished
+
+--- Starting Unified Memory Version ---
+GPU Unified (Compute Only): 0.002588 secs.
+GPU Unified (Total + Mem): 0.004484 secs.
+Final Lambda: 100018.312500
+
+--- Starting Shared Memory Version ---
+GPU Shared (Compute Only): 0.003144 secs.
+GPU Shared (Total + Mem):  0.004153 secs.
+Final Lambda: 100018.296875
+
+--- Starting Global Memory Version ---
+GPU Global (Compute Only): 0.001892 secs.
+GPU Global (Total + Mem):  0.002889 secs.
+Final Lambda: 100018.296875
+
+================ Test 7 / 10 ================
+Power method in CPU starts
+*************************************
+*************************************
+CPU: run time = 0.015486 secs.
+Power method in CPU is finished
+
+--- Starting Unified Memory Version ---
+GPU Unified (Compute Only): 0.002565 secs.
+GPU Unified (Total + Mem): 0.004427 secs.
+Final Lambda: 100018.312500
+
+--- Starting Shared Memory Version ---
+GPU Shared (Compute Only): 0.002524 secs.
+GPU Shared (Total + Mem):  0.003526 secs.
+Final Lambda: 100018.312500
+
+--- Starting Global Memory Version ---
+GPU Global (Compute Only): 0.004081 secs.
+GPU Global (Total + Mem):  0.005080 secs.
+Final Lambda: 100018.312500
+
+================ Test 8 / 10 ================
+Power method in CPU starts
+*************************************
+*************************************
+CPU: run time = 0.015488 secs.
+Power method in CPU is finished
+
+--- Starting Unified Memory Version ---
+GPU Unified (Compute Only): 0.002237 secs.
+GPU Unified (Total + Mem): 0.004133 secs.
+Final Lambda: 100018.296875
+
+--- Starting Shared Memory Version ---
+GPU Shared (Compute Only): 0.001880 secs.
+GPU Shared (Total + Mem):  0.002885 secs.
+Final Lambda: 100018.296875
+
+--- Starting Global Memory Version ---
+GPU Global (Compute Only): 0.001620 secs.
+GPU Global (Total + Mem):  0.002618 secs.
+Final Lambda: 100018.312500
+
+================ Test 9 / 10 ================
+Power method in CPU starts
+*************************************
+*************************************
+CPU: run time = 0.015490 secs.
+Power method in CPU is finished
+
+--- Starting Unified Memory Version ---
+GPU Unified (Compute Only): 0.001915 secs.
+GPU Unified (Total + Mem): 0.003789 secs.
+Final Lambda: 100018.296875
+
+--- Starting Shared Memory Version ---
+GPU Shared (Compute Only): 0.003135 secs.
+GPU Shared (Total + Mem):  0.004145 secs.
+Final Lambda: 100018.296875
+
+--- Starting Global Memory Version ---
+GPU Global (Compute Only): 0.002442 secs.
+GPU Global (Total + Mem):  0.003448 secs.
+Final Lambda: 100018.304688
+
+================ Test 10 / 10 ================
+Power method in CPU starts
+*************************************
+*************************************
+CPU: run time = 0.015484 secs.
+Power method in CPU is finished
+
+--- Starting Unified Memory Version ---
+GPU Unified (Compute Only): 0.001929 secs.
+GPU Unified (Total + Mem): 0.003853 secs.
+Final Lambda: 100018.312500
+
+--- Starting Shared Memory Version ---
+GPU Shared (Compute Only): 0.002824 secs.
+GPU Shared (Total + Mem):  0.003831 secs.
+Final Lambda: 100018.312500
+
+--- Starting Global Memory Version ---
+GPU Global (Compute Only): 0.001897 secs.
+GPU Global (Total + Mem):  0.002898 secs.
+Final Lambda: 100018.296875
+------------------------------------------
+
+>>> RUNNING: Matrix Size 4000 | Block Size 100
+------------------------------------------
+This GPU has major architecture 8, minor 0 
+Using block size 100 
+Matrix size 4000 X 4000 
+
+================ Test 1 / 10 ================
+Power method in CPU starts
+*************************************
+*************************************
+CPU: run time = 0.046229 secs.
+Power method in CPU is finished
+
+--- Starting Unified Memory Version ---
+GPU Unified (Compute Only): 0.008193 secs.
+GPU Unified (Total + Mem): 0.098943 secs.
+Final Lambda: 199997.640625
+
+--- Starting Shared Memory Version ---
+GPU Shared (Compute Only): 0.005907 secs.
+GPU Shared (Total + Mem):  0.011241 secs.
+Final Lambda: 199997.640625
+
+--- Starting Global Memory Version ---
+GPU Global (Compute Only): 0.007479 secs.
+GPU Global (Total + Mem):  0.013339 secs.
+Final Lambda: 199997.656250
+
+================ Test 2 / 10 ================
+Power method in CPU starts
+*************************************
+*************************************
+CPU: run time = 0.046108 secs.
+Power method in CPU is finished
+
+--- Starting Unified Memory Version ---
+GPU Unified (Compute Only): 0.006656 secs.
+GPU Unified (Total + Mem): 0.013218 secs.
+Final Lambda: 199997.656250
+
+--- Starting Shared Memory Version ---
+GPU Shared (Compute Only): 0.007895 secs.
+GPU Shared (Total + Mem):  0.013081 secs.
+Final Lambda: 199997.625000
+
+--- Starting Global Memory Version ---
+GPU Global (Compute Only): 0.005588 secs.
+GPU Global (Total + Mem):  0.011318 secs.
+Final Lambda: 199997.625000
+
+================ Test 3 / 10 ================
+Power method in CPU starts
+*************************************
+*************************************
+CPU: run time = 0.045856 secs.
+Power method in CPU is finished
+
+--- Starting Unified Memory Version ---
+GPU Unified (Compute Only): 0.005316 secs.
+GPU Unified (Total + Mem): 0.011874 secs.
+Final Lambda: 199997.671875
+
+--- Starting Shared Memory Version ---
+GPU Shared (Compute Only): 0.006573 secs.
+GPU Shared (Total + Mem):  0.011730 secs.
+Final Lambda: 199997.656250
+
+--- Starting Global Memory Version ---
+GPU Global (Compute Only): 0.006521 secs.
+GPU Global (Total + Mem):  0.012212 secs.
+Final Lambda: 199997.671875
+
+================ Test 4 / 10 ================
+Power method in CPU starts
+*************************************
+*************************************
+CPU: run time = 0.045733 secs.
+Power method in CPU is finished
+
+--- Starting Unified Memory Version ---
+GPU Unified (Compute Only): 0.004653 secs.
+GPU Unified (Total + Mem): 0.011152 secs.
+Final Lambda: 199997.609375
+
+--- Starting Shared Memory Version ---
+GPU Shared (Compute Only): 0.003941 secs.
+GPU Shared (Total + Mem):  0.009067 secs.
+Final Lambda: 199997.640625
+
+--- Starting Global Memory Version ---
+GPU Global (Compute Only): 0.013080 secs.
+GPU Global (Total + Mem):  0.018752 secs.
+Final Lambda: 199997.625000
+
+================ Test 5 / 10 ================
+Power method in CPU starts
+*************************************
+*************************************
+CPU: run time = 0.045650 secs.
+Power method in CPU is finished
+
+--- Starting Unified Memory Version ---
+GPU Unified (Compute Only): 0.003983 secs.
+GPU Unified (Total + Mem): 0.010486 secs.
+Final Lambda: 199997.656250
+
+--- Starting Shared Memory Version ---
+GPU Shared (Compute Only): 0.011842 secs.
+GPU Shared (Total + Mem):  0.016961 secs.
+Final Lambda: 199997.671875
+
+--- Starting Global Memory Version ---
+GPU Global (Compute Only): 0.013067 secs.
+GPU Global (Total + Mem):  0.018719 secs.
+Final Lambda: 199997.656250
+
+================ Test 6 / 10 ================
+Power method in CPU starts
+*************************************
+*************************************
+CPU: run time = 0.045562 secs.
+Power method in CPU is finished
+
+--- Starting Unified Memory Version ---
+GPU Unified (Compute Only): 0.007313 secs.
+GPU Unified (Total + Mem): 0.013873 secs.
+Final Lambda: 199997.656250
+
+--- Starting Shared Memory Version ---
+GPU Shared (Compute Only): 0.012504 secs.
+GPU Shared (Total + Mem):  0.017604 secs.
+Final Lambda: 199997.656250
+
+--- Starting Global Memory Version ---
+GPU Global (Compute Only): 0.012136 secs.
+GPU Global (Total + Mem):  0.017779 secs.
+Final Lambda: 199997.625000
+
+================ Test 7 / 10 ================
+Power method in CPU starts
+*************************************
+*************************************
+CPU: run time = 0.045616 secs.
+Power method in CPU is finished
+
+--- Starting Unified Memory Version ---
+GPU Unified (Compute Only): 0.005973 secs.
+GPU Unified (Total + Mem): 0.012460 secs.
+Final Lambda: 199997.625000
+
+--- Starting Shared Memory Version ---
+GPU Shared (Compute Only): 0.007238 secs.
+GPU Shared (Total + Mem):  0.012333 secs.
+Final Lambda: 199997.656250
+
+--- Starting Global Memory Version ---
+GPU Global (Compute Only): 0.016797 secs.
+GPU Global (Total + Mem):  0.022433 secs.
+Final Lambda: 199997.625000
+
+================ Test 8 / 10 ================
+Power method in CPU starts
+*************************************
+*************************************
+CPU: run time = 0.045582 secs.
+Power method in CPU is finished
+
+--- Starting Unified Memory Version ---
+GPU Unified (Compute Only): 0.007984 secs.
+GPU Unified (Total + Mem): 0.014543 secs.
+Final Lambda: 199997.656250
+
+--- Starting Shared Memory Version ---
+GPU Shared (Compute Only): 0.006590 secs.
+GPU Shared (Total + Mem):  0.011675 secs.
+Final Lambda: 199997.656250
+
+--- Starting Global Memory Version ---
+GPU Global (Compute Only): 0.014004 secs.
+GPU Global (Total + Mem):  0.019634 secs.
+Final Lambda: 199997.625000
+
+================ Test 9 / 10 ================
+Power method in CPU starts
+*************************************
+*************************************
+CPU: run time = 0.045494 secs.
+Power method in CPU is finished
+
+--- Starting Unified Memory Version ---
+GPU Unified (Compute Only): 0.005318 secs.
+GPU Unified (Total + Mem): 0.011806 secs.
+Final Lambda: 199997.640625
+
+--- Starting Shared Memory Version ---
+GPU Shared (Compute Only): 0.005254 secs.
+GPU Shared (Total + Mem):  0.010348 secs.
+Final Lambda: 199997.656250
+
+--- Starting Global Memory Version ---
+GPU Global (Compute Only): 0.011203 secs.
+GPU Global (Total + Mem):  0.016836 secs.
+Final Lambda: 199997.640625
+
+================ Test 10 / 10 ================
+Power method in CPU starts
+*************************************
+*************************************
+CPU: run time = 0.045458 secs.
+Power method in CPU is finished
+
+--- Starting Unified Memory Version ---
+GPU Unified (Compute Only): 0.005325 secs.
+GPU Unified (Total + Mem): 0.011845 secs.
+Final Lambda: 199997.625000
+
+--- Starting Shared Memory Version ---
+GPU Shared (Compute Only): 0.006589 secs.
+GPU Shared (Total + Mem):  0.011700 secs.
+Final Lambda: 199997.671875
+
+--- Starting Global Memory Version ---
+GPU Global (Compute Only): 0.010262 secs.
+GPU Global (Total + Mem):  0.015890 secs.
+Final Lambda: 199997.625000
+------------------------------------------
+
+>>> RUNNING: Matrix Size 8000 | Block Size 100
+------------------------------------------
+This GPU has major architecture 8, minor 0 
+Using block size 100 
+Matrix size 8000 X 8000 
+
+================ Test 1 / 10 ================
+Power method in CPU starts
+*************************************
+*************************************
+CPU: run time = 0.266767 secs.
+Power method in CPU is finished
+
+--- Starting Unified Memory Version ---
+GPU Unified (Compute Only): 0.017875 secs.
+GPU Unified (Total + Mem): 0.123554 secs.
+Final Lambda: 399990.468750
+
+--- Starting Shared Memory Version ---
+GPU Shared (Compute Only): 0.015237 secs.
+GPU Shared (Total + Mem):  0.037301 secs.
+Final Lambda: 399990.437500
+
+--- Starting Global Memory Version ---
+GPU Global (Compute Only): 0.073512 secs.
+GPU Global (Total + Mem):  0.100614 secs.
+Final Lambda: 399990.500000
+
+================ Test 2 / 10 ================
+Power method in CPU starts
+*************************************
+*************************************
+CPU: run time = 0.267117 secs.
+Power method in CPU is finished
+
+--- Starting Unified Memory Version ---
+GPU Unified (Compute Only): 0.063788 secs.
+GPU Unified (Total + Mem): 0.089329 secs.
+Final Lambda: 399990.468750
+
+--- Starting Shared Memory Version ---
+GPU Shared (Compute Only): 0.048354 secs.
+GPU Shared (Total + Mem):  0.070679 secs.
+Final Lambda: 399990.468750
+
+--- Starting Global Memory Version ---
+GPU Global (Compute Only): 0.051390 secs.
+GPU Global (Total + Mem):  0.078627 secs.
+Final Lambda: 399990.437500
+
+================ Test 3 / 10 ================
+Power method in CPU starts
+*************************************
+*************************************
+CPU: run time = 0.267410 secs.
+Power method in CPU is finished
+
+--- Starting Unified Memory Version ---
+GPU Unified (Compute Only): 0.048446 secs.
+GPU Unified (Total + Mem): 0.074201 secs.
+Final Lambda: 399990.375000
+
+--- Starting Shared Memory Version ---
+GPU Shared (Compute Only): 0.030555 secs.
+GPU Shared (Total + Mem):  0.052641 secs.
+Final Lambda: 399990.437500
+
+--- Starting Global Memory Version ---
+GPU Global (Compute Only): 0.022033 secs.
+GPU Global (Total + Mem):  0.049225 secs.
+Final Lambda: 399990.468750
+
+================ Test 4 / 10 ================
+Power method in CPU starts
+*************************************
+*************************************
+CPU: run time = 0.266707 secs.
+Power method in CPU is finished
+
+--- Starting Unified Memory Version ---
+GPU Unified (Compute Only): 0.068859 secs.
+GPU Unified (Total + Mem): 0.094405 secs.
+Final Lambda: 399990.406250
+
+--- Starting Shared Memory Version ---
+GPU Shared (Compute Only): 0.017793 secs.
+GPU Shared (Total + Mem):  0.039834 secs.
+Final Lambda: 399990.437500
+
+--- Starting Global Memory Version ---
+GPU Global (Compute Only): 0.095520 secs.
+GPU Global (Total + Mem):  0.122477 secs.
+Final Lambda: 399990.406250
+
+================ Test 5 / 10 ================
+Power method in CPU starts
+*************************************
+*************************************
+CPU: run time = 0.266934 secs.
+Power method in CPU is finished
+
+--- Starting Unified Memory Version ---
+GPU Unified (Compute Only): 0.015251 secs.
+GPU Unified (Total + Mem): 0.040876 secs.
+Final Lambda: 399990.406250
+
+--- Starting Shared Memory Version ---
+GPU Shared (Compute Only): 0.063522 secs.
+GPU Shared (Total + Mem):  0.085376 secs.
+Final Lambda: 399990.437500
+
+--- Starting Global Memory Version ---
+GPU Global (Compute Only): 0.029367 secs.
+GPU Global (Total + Mem):  0.056581 secs.
+Final Lambda: 399990.406250
+
+================ Test 6 / 10 ================
+Power method in CPU starts
+*************************************
+*************************************
+CPU: run time = 0.266507 secs.
+Power method in CPU is finished
+
+--- Starting Unified Memory Version ---
+GPU Unified (Compute Only): 0.035700 secs.
+GPU Unified (Total + Mem): 0.061286 secs.
+Final Lambda: 399990.437500
+
+--- Starting Shared Memory Version ---
+GPU Shared (Compute Only): 0.015217 secs.
+GPU Shared (Total + Mem):  0.037123 secs.
+Final Lambda: 399990.468750
+
+--- Starting Global Memory Version ---
+GPU Global (Compute Only): 0.055097 secs.
+GPU Global (Total + Mem):  0.082029 secs.
+Final Lambda: 399990.468750
+
+================ Test 7 / 10 ================
+Power method in CPU starts
+*************************************
+*************************************
+CPU: run time = 0.266597 secs.
+Power method in CPU is finished
+
+--- Starting Unified Memory Version ---
+GPU Unified (Compute Only): 0.015264 secs.
+GPU Unified (Total + Mem): 0.040908 secs.
+Final Lambda: 399990.500000
+
+--- Starting Shared Memory Version ---
+GPU Shared (Compute Only): 0.015189 secs.
+GPU Shared (Total + Mem):  0.037032 secs.
+Final Lambda: 399990.437500
+
+--- Starting Global Memory Version ---
+GPU Global (Compute Only): 0.033038 secs.
+GPU Global (Total + Mem):  0.059960 secs.
+Final Lambda: 399990.468750
+
+================ Test 8 / 10 ================
+Power method in CPU starts
+*************************************
+*************************************
+CPU: run time = 0.267347 secs.
+Power method in CPU is finished
+
+--- Starting Unified Memory Version ---
+GPU Unified (Compute Only): 0.017813 secs.
+GPU Unified (Total + Mem): 0.043549 secs.
+Final Lambda: 399990.468750
+
+--- Starting Shared Memory Version ---
+GPU Shared (Compute Only): 0.017809 secs.
+GPU Shared (Total + Mem):  0.039690 secs.
+Final Lambda: 399990.375000
+
+--- Starting Global Memory Version ---
+GPU Global (Compute Only): 0.055107 secs.
+GPU Global (Total + Mem):  0.082071 secs.
+Final Lambda: 399990.406250
+
+================ Test 9 / 10 ================
+Power method in CPU starts
+*************************************
+*************************************
+CPU: run time = 0.271493 secs.
+Power method in CPU is finished
+
+--- Starting Unified Memory Version ---
+GPU Unified (Compute Only): 0.068861 secs.
+GPU Unified (Total + Mem): 0.094506 secs.
+Final Lambda: 399990.437500
+
+--- Starting Shared Memory Version ---
+GPU Shared (Compute Only): 0.038071 secs.
+GPU Shared (Total + Mem):  0.060426 secs.
+Final Lambda: 399990.468750
+
+--- Starting Global Memory Version ---
+GPU Global (Compute Only): 0.022008 secs.
+GPU Global (Total + Mem):  0.049299 secs.
+Final Lambda: 399990.468750
+
+================ Test 10 / 10 ================
+Power method in CPU starts
+*************************************
+*************************************
+CPU: run time = 0.266839 secs.
+Power method in CPU is finished
+
+--- Starting Unified Memory Version ---
+GPU Unified (Compute Only): 0.135129 secs.
+GPU Unified (Total + Mem): 0.160828 secs.
+Final Lambda: 399990.468750
+
+--- Starting Shared Memory Version ---
+GPU Shared (Compute Only): 0.030505 secs.
+GPU Shared (Total + Mem):  0.053156 secs.
+Final Lambda: 399990.406250
+
+--- Starting Global Memory Version ---
+GPU Global (Compute Only): 0.095545 secs.
+GPU Global (Total + Mem):  0.122616 secs.
+Final Lambda: 399990.468750
+------------------------------------------
+
+Resetting code back to default...
+==========================================
+ALL EXPERIMENTS FINISHED
+==========================================

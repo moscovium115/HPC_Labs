@@ -1,0 +1,147 @@
+==================================================
+Exercise 4.5 FEM measurements
+TXT: data_ex_4_5/ex4_5_measurements.txt
+CSV: data_ex_4_5/ex4_5_measurements.csv
+==================================================
+
+Compiling...
+make: Nothing to be done for 'all'.
+
+----------------------------------------
+Case: part=A_fixedP4, P=4 (2x2), grid=50x50
+Dir:  data_ex_4_5/case_A_fixedP4_P4_2x2_N50
+----------------------------------------
+Generating GridDist...
+Writing file 0 1 2 3 map
+
+Running MPI_Fempois...
+(0) Time Breakdown: Calc: 0.0024s | Exchange: 0.0004s | Global: 0.0002s | Idle: 0.0006s
+Number of iterations : 74
+(0) Elapsed Wtime:       0.007360 s ( 76.1% CPU)
+(2) Time Breakdown: Calc: 0.0022s | Exchange: 0.0009s | Global: 0.0002s | Idle: 0.0003s
+(2) Elapsed Wtime:       0.009189 s ( 66.5% CPU)
+(3) Time Breakdown: Calc: 0.0022s | Exchange: 0.0008s | Global: 0.0002s | Idle: 0.0004s
+(3) Elapsed Wtime:       0.008719 s ( 69.7% CPU)
+(1) Time Breakdown: Calc: 0.0022s | Exchange: 0.0006s | Global: 0.0002s | Idle: 0.0005s
+(1) Elapsed Wtime:       0.008424 s ( 71.8% CPU)
+
+----------------------------------------
+Case: part=A_fixedP4, P=4 (2x2), grid=100x100
+Dir:  data_ex_4_5/case_A_fixedP4_P4_2x2_N100
+----------------------------------------
+Generating GridDist...
+Writing file 0 1 2 3 map
+
+Running MPI_Fempois...
+(0) Time Breakdown: Calc: 0.0169s | Exchange: 0.0007s | Global: 0.0004s | Idle: 0.0017s
+Number of iterations : 141
+(0) Elapsed Wtime:       0.028567 s ( 92.9% CPU)
+(1) Time Breakdown: Calc: 0.0170s | Exchange: 0.0013s | Global: 0.0004s | Idle: 0.0010s
+(1) Elapsed Wtime:       0.028615 s ( 94.1% CPU)
+(3) Time Breakdown: Calc: 0.0170s | Exchange: 0.0017s | Global: 0.0003s | Idle: 0.0006s
+(3) Elapsed Wtime:       0.027839 s ( 96.4% CPU)
+(2) Time Breakdown: Calc: 0.0169s | Exchange: 0.0017s | Global: 0.0004s | Idle: 0.0006s
+(2) Elapsed Wtime:       0.028564 s ( 94.2% CPU)
+
+----------------------------------------
+Case: part=A_fixedP4, P=4 (2x2), grid=150x150
+Dir:  data_ex_4_5/case_A_fixedP4_P4_2x2_N150
+----------------------------------------
+Generating GridDist...
+Writing file 0 1 2 3 map
+
+Running MPI_Fempois...
+(2) Time Breakdown: Calc: 0.0601s | Exchange: 0.0033s | Global: 0.0006s | Idle: 0.0017s
+(2) Elapsed Wtime:       0.086233 s ( 94.4% CPU)
+(0) Time Breakdown: Calc: 0.0612s | Exchange: 0.0015s | Global: 0.0007s | Idle: 0.0025s
+Number of iterations : 208
+(0) Elapsed Wtime:       0.095484 s ( 85.0% CPU)
+(1) Time Breakdown: Calc: 0.0600s | Exchange: 0.0024s | Global: 0.0007s | Idle: 0.0028s
+(1) Elapsed Wtime:       0.089480 s ( 91.2% CPU)
+(3) Time Breakdown: Calc: 0.0601s | Exchange: 0.0031s | Global: 0.0006s | Idle: 0.0020s
+(3) Elapsed Wtime:       0.090765 s ( 89.8% CPU)
+
+----------------------------------------
+Case: part=A_fixedP4, P=4 (2x2), grid=200x200
+Dir:  data_ex_4_5/case_A_fixedP4_P4_2x2_N200
+----------------------------------------
+Generating GridDist...
+Writing file 0 1 2 3 map
+
+Running MPI_Fempois...
+(1) Time Breakdown: Calc: 0.1311s | Exchange: 0.0031s | Global: 0.0008s | Idle: 0.0032s
+(1) Elapsed Wtime:       0.258391 s ( 64.0% CPU)
+(3) Time Breakdown: Calc: 0.1317s | Exchange: 0.0040s | Global: 0.0007s | Idle: 0.0017s
+(3) Elapsed Wtime:       0.257508 s ( 64.2% CPU)
+(2) Time Breakdown: Calc: 0.1310s | Exchange: 0.0042s | Global: 0.0008s | Idle: 0.0018s
+(2) Elapsed Wtime:       0.251364 s ( 65.6% CPU)
+(0) Time Breakdown: Calc: 0.1314s | Exchange: 0.0019s | Global: 0.0008s | Idle: 0.0038s
+Number of iterations : 274
+(0) Elapsed Wtime:       0.257435 s ( 63.5% CPU)
+
+----------------------------------------
+Case: part=A_fixedP4, P=4 (2x2), grid=300x300
+Dir:  data_ex_4_5/case_A_fixedP4_P4_2x2_N300
+----------------------------------------
+Generating GridDist...
+Writing file 0 1 2 3 map
+
+Running MPI_Fempois...
+(1) Time Breakdown: Calc: 0.5003s | Exchange: 0.0053s | Global: 0.0016s | Idle: 0.0032s
+(1) Elapsed Wtime:       0.581475 s ( 97.7% CPU)
+(2) Time Breakdown: Calc: 0.4976s | Exchange: 0.0072s | Global: 0.0013s | Idle: 0.0044s
+(2) Elapsed Wtime:       0.574111 s ( 99.0% CPU)
+(0) Time Breakdown: Calc: 0.4990s | Exchange: 0.0035s | Global: 0.0014s | Idle: 0.0065s
+Number of iterations : 402
+(0) Elapsed Wtime:       0.573247 s ( 99.1% CPU)
+(3) Time Breakdown: Calc: 0.4991s | Exchange: 0.0069s | Global: 0.0013s | Idle: 0.0030s
+(3) Elapsed Wtime:       0.572940 s ( 99.1% CPU)
+
+----------------------------------------
+Case: part=A_fixedP4, P=4 (2x2), grid=400x400
+Dir:  data_ex_4_5/case_A_fixedP4_P4_2x2_N400
+----------------------------------------
+Generating GridDist...
+Writing file 0 1 2 3 map
+
+Running MPI_Fempois...
+(0) Time Breakdown: Calc: 1.2089s | Exchange: 0.0052s | Global: 0.0021s | Idle: 0.0388s
+Number of iterations : 529
+(0) Elapsed Wtime:       1.365469 s ( 99.2% CPU)
+(1) Time Breakdown: Calc: 1.2317s | Exchange: 0.0080s | Global: 0.0022s | Idle: 0.0132s
+(1) Elapsed Wtime:       1.365787 s ( 99.2% CPU)
+(2) Time Breakdown: Calc: 1.2268s | Exchange: 0.0111s | Global: 0.0019s | Idle: 0.0153s
+(2) Elapsed Wtime:       1.365659 s ( 99.3% CPU)
+(3) Time Breakdown: Calc: 1.2313s | Exchange: 0.0106s | Global: 0.0018s | Idle: 0.0111s
+(3) Elapsed Wtime:       1.364982 s ( 99.2% CPU)
+
+----------------------------------------
+Case: part=B_fixedN1000, P=1 (1x1), grid=1000x1000
+Dir:  data_ex_4_5/case_B_fixedN1000_P1_1x1_N1000
+----------------------------------------
+Generating GridDist...
+Writing file 0 map
+
+Running MPI_Fempois...
+(0) Time Breakdown: Calc: 70.2260s | Exchange: 0.0000s | Global: 0.0020s | Idle: 0.0017s
+Number of iterations : 1241
+(0) Elapsed Wtime:      72.976998 s ( 99.5% CPU)
+
+----------------------------------------
+Case: part=B_fixedN1000, P=2 (1x2), grid=1000x1000
+Dir:  data_ex_4_5/case_B_fixedN1000_P2_1x2_N1000
+----------------------------------------
+Generating GridDist...
+Writing file 0 1 map
+
+Running MPI_Fempois...
+(0) Time Breakdown: Calc: 35.9496s | Exchange: 0.0084s | Global: 0.0047s | Idle: 0.2361s
+Number of iterations : 1241
+(0) Elapsed Wtime:      37.584914 s ( 99.4% CPU)
+(1) Time Breakdown: Calc: 35.9594s | Exchange: 0.0087s | Global: 0.0056s | Idle: 0.2249s
+(1) Elapsed Wtime:      37.584585 s ( 99.3% CPU)
+
+==================================================
+Done.
+CSV written to: data_ex_4_5/ex4_5_measurements.csv
+==================================================

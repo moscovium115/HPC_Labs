@@ -1,0 +1,32 @@
+(3) (x,y)=(1,1)
+(3) Number of iterations : 2000
+(3) Elapsed Wtime       0.409945 s ( 84.4% CPU)
+(2) (x,y)=(1,0)
+(2) Number of iterations : 2000
+(2) Elapsed Wtime       0.348401 s ( 99.3% CPU)
+(0) (x,y)=(0,0)
+MEASURE: Iterations 100 Time 0.018976
+MEASURE: Iterations 200 Time 0.036524
+MEASURE: Iterations 300 Time 0.053850
+MEASURE: Iterations 400 Time 0.070923
+MEASURE: Iterations 500 Time 0.087934
+MEASURE: Iterations 600 Time 0.105043
+MEASURE: Iterations 700 Time 0.122060
+MEASURE: Iterations 800 Time 0.139097
+MEASURE: Iterations 900 Time 0.156223
+MEASURE: Iterations 1000 Time 0.173201
+MEASURE: Iterations 1100 Time 0.190193
+MEASURE: Iterations 1200 Time 0.207151
+MEASURE: Iterations 1300 Time 0.224154
+MEASURE: Iterations 1400 Time 0.241139
+MEASURE: Iterations 1500 Time 0.258126
+MEASURE: Iterations 1600 Time 0.275139
+MEASURE: Iterations 1700 Time 0.292641
+MEASURE: Iterations 1800 Time 0.310225
+MEASURE: Iterations 1900 Time 0.327055
+MEASURE: Iterations 2000 Time 0.343764
+(0) Number of iterations : 2000
+(0) Elapsed Wtime       0.348186 s ( 99.1% CPU)
+(1) (x,y)=(0,1)
+(1) Number of iterations : 2000
+(1) Elapsed Wtime       0.348236 s ( 99.3% CPU)

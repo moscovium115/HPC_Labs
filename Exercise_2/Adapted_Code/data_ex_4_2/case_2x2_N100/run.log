@@ -1,0 +1,9 @@
+(0) Time Breakdown: Calc: 0.0174s | Exchange: 0.0007s | Global: 0.0005s | Idle: 0.0013s
+Number of iterations : 141
+(0) Elapsed Wtime:       0.029098 s ( 90.9% CPU)
+(1) Time Breakdown: Calc: 0.0167s | Exchange: 0.0013s | Global: 0.0004s | Idle: 0.0013s
+(1) Elapsed Wtime:       0.029433 s ( 93.7% CPU)
+(2) Time Breakdown: Calc: 0.0167s | Exchange: 0.0017s | Global: 0.0004s | Idle: 0.0009s
+(2) Elapsed Wtime:       0.029042 s ( 95.0% CPU)
+(3) Time Breakdown: Calc: 0.0167s | Exchange: 0.0017s | Global: 0.0004s | Idle: 0.0011s
+(3) Elapsed Wtime:       0.028975 s ( 95.0% CPU)

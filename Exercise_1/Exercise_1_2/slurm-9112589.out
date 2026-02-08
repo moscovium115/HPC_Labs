@@ -1,0 +1,15 @@
+Configuring input.dat for benchmark (800x800)...
+------------------------------------------
+Benchmarking Error Check Frequency: 1
+  -> Result: 3003 iters in 7.835251 s
+------------------------------------------
+Benchmarking Error Check Frequency: 10
+  -> Result: 3010 iters in 7.642278 s
+------------------------------------------
+Benchmarking Error Check Frequency: 100
+  -> Result: 3100 iters in 7.699934 s
+------------------------------------------
+Benchmarking ZERO Error Checks (Fixed 3003 Iters)
+  -> Result: 3003 iters in 7.501128 s
+------------------------------------------
+Done. Results saved to data_ex_1_2_7/freq_results.csv

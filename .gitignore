@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.pyc
+
+# Virtual environments
+env/
+venv/
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VSCode
+.vscode/
+
+# OS junk
+.DS_Store
+
+Exercise_2/Adapted_Code/data_ex_4_5/
+Exercise_2/Adapted_Code/data_ex_4_5/

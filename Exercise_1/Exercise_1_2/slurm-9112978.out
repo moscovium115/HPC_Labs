@@ -1,0 +1,9 @@
+Compiling MPI_Poisson_1_2_10.c...
+Running Ratio Analysis (Strong Scaling on 1200)...
+  -> Processes: 1 (1 x 1)
+  -> Processes: 4 (2 x 2)
+  -> Processes: 9 (3 x 3)
+  -> Processes: 16 (4 x 4)
+  -> Processes: 25 (5 x 5)
+  -> Processes: 36 (6 x 6)
+Done. Results saved to data_ex_1_2_10/ratio_results.csv

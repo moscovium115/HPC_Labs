@@ -1,0 +1,245 @@
+==================================================
+Exercise 4.5 FEM measurements
+TXT: data_ex_4_5/ex4_5_measurements.txt
+CSV: data_ex_4_5/ex4_5_measurements.csv
+==================================================
+
+Compiling...
+make: Nothing to be done for 'all'.
+
+----------------------------------------
+Case: part=A_fixedP4, P=4 (2x2), grid=50x50
+Dir:  data_ex_4_5/case_A_fixedP4_P4_2x2_N50
+----------------------------------------
+Generating GridDist...
+Writing file 0 1 2 3 map
+
+Running MPI_Fempois...
+(1) Time Breakdown: Calc: 0.0024s | Exchange: 0.0006s | Global: 0.0002s | Idle: 0.0005s
+(1) Elapsed Wtime:       0.020518 s ( 30.8% CPU)
+(2) Time Breakdown: Calc: 0.0023s | Exchange: 0.0008s | Global: 0.0002s | Idle: 0.0002s
+(2) Elapsed Wtime:       0.020746 s ( 29.9% CPU)
+(0) Time Breakdown: Calc: 0.0022s | Exchange: 0.0003s | Global: 0.0002s | Idle: 0.0009s
+Number of iterations : 74
+(0) Elapsed Wtime:       0.007098 s ( 79.5% CPU)
+(3) Time Breakdown: Calc: 0.0023s | Exchange: 0.0008s | Global: 0.0002s | Idle: 0.0005s
+(3) Elapsed Wtime:       0.020578 s ( 30.7% CPU)
+
+WARNING: Missing rank-0 breakdown line in data_ex_4_5/case_A_fixedP4_P4_2x2_N50/run.log
+----------------------------------------
+Case: part=A_fixedP4, P=4 (2x2), grid=100x100
+Dir:  data_ex_4_5/case_A_fixedP4_P4_2x2_N100
+----------------------------------------
+Generating GridDist...
+Writing file 0 1 2 3 map
+
+Running MPI_Fempois...
+(0) Time Breakdown: Calc: 0.0164s | Exchange: 0.0007s | Global: 0.0005s | Idle: 0.0015s
+Number of iterations : 141
+(0) Elapsed Wtime:       0.028530 s ( 90.2% CPU)
+(1) Time Breakdown: Calc: 0.0164s | Exchange: 0.0013s | Global: 0.0005s | Idle: 0.0009s
+(1) Elapsed Wtime:       0.028659 s ( 92.8% CPU)
+(3) Time Breakdown: Calc: 0.0164s | Exchange: 0.0016s | Global: 0.0004s | Idle: 0.0007s
+(3) Elapsed Wtime:       0.028728 s ( 92.8% CPU)
+(2) Time Breakdown: Calc: 0.0165s | Exchange: 0.0017s | Global: 0.0005s | Idle: 0.0005s
+(2) Elapsed Wtime:       0.028635 s ( 93.2% CPU)
+
+WARNING: Missing rank-0 breakdown line in data_ex_4_5/case_A_fixedP4_P4_2x2_N100/run.log
+----------------------------------------
+Case: part=A_fixedP4, P=4 (2x2), grid=150x150
+Dir:  data_ex_4_5/case_A_fixedP4_P4_2x2_N150
+----------------------------------------
+Generating GridDist...
+Writing file 0 1 2 3 map
+
+Running MPI_Fempois...
+(0) Time Breakdown: Calc: 0.0552s | Exchange: 0.0013s | Global: 0.0006s | Idle: 0.0026s
+Number of iterations : 208
+(0) Elapsed Wtime:       0.076009 s ( 97.5% CPU)
+(1) Time Breakdown: Calc: 0.0554s | Exchange: 0.0022s | Global: 0.0006s | Idle: 0.0015s
+(1) Elapsed Wtime:       0.076116 s ( 98.0% CPU)
+(3) Time Breakdown: Calc: 0.0555s | Exchange: 0.0028s | Global: 0.0005s | Idle: 0.0011s
+(3) Elapsed Wtime:       0.075902 s ( 98.4% CPU)
+(2) Time Breakdown: Calc: 0.0553s | Exchange: 0.0029s | Global: 0.0006s | Idle: 0.0009s
+(2) Elapsed Wtime:       0.076081 s ( 98.1% CPU)
+
+WARNING: Missing rank-0 breakdown line in data_ex_4_5/case_A_fixedP4_P4_2x2_N150/run.log
+----------------------------------------
+Case: part=A_fixedP4, P=4 (2x2), grid=200x200
+Dir:  data_ex_4_5/case_A_fixedP4_P4_2x2_N200
+----------------------------------------
+Generating GridDist...
+Writing file 0 1 2 3 map
+
+Running MPI_Fempois...
+(0) Time Breakdown: Calc: 0.1332s | Exchange: 0.0019s | Global: 0.0008s | Idle: 0.0037s
+Number of iterations : 274
+(0) Elapsed Wtime:       0.167478 s ( 98.6% CPU)
+(1) Time Breakdown: Calc: 0.1319s | Exchange: 0.0032s | Global: 0.0008s | Idle: 0.0040s
+(1) Elapsed Wtime:       0.168094 s ( 98.5% CPU)
+(2) Time Breakdown: Calc: 0.1319s | Exchange: 0.0043s | Global: 0.0008s | Idle: 0.0027s
+(2) Elapsed Wtime:       0.167376 s ( 98.8% CPU)
+(3) Time Breakdown: Calc: 0.1320s | Exchange: 0.0041s | Global: 0.0007s | Idle: 0.0030s
+(3) Elapsed Wtime:       0.167463 s ( 98.8% CPU)
+
+WARNING: Missing rank-0 breakdown line in data_ex_4_5/case_A_fixedP4_P4_2x2_N200/run.log
+----------------------------------------
+Case: part=A_fixedP4, P=4 (2x2), grid=300x300
+Dir:  data_ex_4_5/case_A_fixedP4_P4_2x2_N300
+----------------------------------------
+Generating GridDist...
+Writing file 0 1 2 3 map
+
+Running MPI_Fempois...
+(0) Time Breakdown: Calc: 0.4477s | Exchange: 0.0033s | Global: 0.0016s | Idle: 0.0061s
+Number of iterations : 402
+(0) Elapsed Wtime:       0.520495 s ( 98.8% CPU)
+(1) Time Breakdown: Calc: 0.4479s | Exchange: 0.0052s | Global: 0.0017s | Idle: 0.0039s
+(1) Elapsed Wtime:       0.519902 s ( 99.0% CPU)
+(2) Time Breakdown: Calc: 0.4443s | Exchange: 0.0071s | Global: 0.0015s | Idle: 0.0060s
+(2) Elapsed Wtime:       0.521077 s ( 98.8% CPU)
+(3) Time Breakdown: Calc: 0.4426s | Exchange: 0.0067s | Global: 0.0014s | Idle: 0.0080s
+(3) Elapsed Wtime:       0.519784 s ( 99.0% CPU)
+
+WARNING: Missing rank-0 breakdown line in data_ex_4_5/case_A_fixedP4_P4_2x2_N300/run.log
+----------------------------------------
+Case: part=A_fixedP4, P=4 (2x2), grid=400x400
+Dir:  data_ex_4_5/case_A_fixedP4_P4_2x2_N400
+----------------------------------------
+Generating GridDist...
+Writing file 0 1 2 3 map
+
+Running MPI_Fempois...
+(0) Time Breakdown: Calc: 1.1722s | Exchange: 0.0044s | Global: 0.0018s | Idle: 0.0150s
+Number of iterations : 529
+(0) Elapsed Wtime:       1.301364 s ( 99.4% CPU)
+(2) Time Breakdown: Calc: 1.1657s | Exchange: 0.0096s | Global: 0.0016s | Idle: 0.0165s
+(2) Elapsed Wtime:       1.301224 s ( 99.4% CPU)
+(3) Time Breakdown: Calc: 1.1672s | Exchange: 0.0092s | Global: 0.0015s | Idle: 0.0158s
+(3) Elapsed Wtime:       1.301231 s ( 99.4% CPU)
+(1) Time Breakdown: Calc: 1.0910s | Exchange: 0.0068s | Global: 0.0018s | Idle: 0.0940s
+(1) Elapsed Wtime:       1.301925 s ( 99.3% CPU)
+
+WARNING: Missing rank-0 breakdown line in data_ex_4_5/case_A_fixedP4_P4_2x2_N400/run.log
+----------------------------------------
+Case: part=B_fixedN1000, P=1 (1x1), grid=1000x1000
+Dir:  data_ex_4_5/case_B_fixedN1000_P1_1x1_N1000
+----------------------------------------
+Generating GridDist...
+Writing file 0 map
+
+Running MPI_Fempois...
+(0) Time Breakdown: Calc: 69.7562s | Exchange: 0.0000s | Global: 0.0019s | Idle: 0.0016s
+Number of iterations : 1241
+(0) Elapsed Wtime:      72.465511 s ( 99.6% CPU)
+
+WARNING: Missing rank-0 breakdown line in data_ex_4_5/case_B_fixedN1000_P1_1x1_N1000/run.log
+----------------------------------------
+Case: part=B_fixedN1000, P=2 (1x2), grid=1000x1000
+Dir:  data_ex_4_5/case_B_fixedN1000_P2_1x2_N1000
+----------------------------------------
+Generating GridDist...
+Writing file 0 1 map
+
+Running MPI_Fempois...
+(1) Time Breakdown: Calc: 35.1844s | Exchange: 0.0084s | Global: 0.0055s | Idle: 0.2941s
+(1) Elapsed Wtime:      36.799066 s ( 99.6% CPU)
+(0) Time Breakdown: Calc: 35.1313s | Exchange: 0.0084s | Global: 0.0047s | Idle: 0.3259s
+Number of iterations : 1241
+(0) Elapsed Wtime:      36.825875 s ( 99.5% CPU)
+
+WARNING: Missing rank-0 breakdown line in data_ex_4_5/case_B_fixedN1000_P2_1x2_N1000/run.log
+----------------------------------------
+Case: part=B_fixedN1000, P=4 (2x2), grid=1000x1000
+Dir:  data_ex_4_5/case_B_fixedN1000_P4_2x2_N1000
+----------------------------------------
+Generating GridDist...
+Writing file 0 1 2 3 map
+
+Running MPI_Fempois...
+(2) Time Breakdown: Calc: 18.1782s | Exchange: 0.0436s | Global: 0.0090s | Idle: 0.4270s
+(2) Elapsed Wtime:      19.324678 s ( 99.5% CPU)
+(3) Time Breakdown: Calc: 18.1873s | Exchange: 0.0411s | Global: 0.0087s | Idle: 0.4214s
+(3) Elapsed Wtime:      19.325748 s ( 99.5% CPU)
+(0) Time Breakdown: Calc: 18.4224s | Exchange: 0.0192s | Global: 0.0107s | Idle: 0.2016s
+Number of iterations : 1241
+(0) Elapsed Wtime:      19.315637 s ( 99.5% CPU)
+(1) Time Breakdown: Calc: 18.1768s | Exchange: 0.0279s | Global: 0.0109s | Idle: 0.4416s
+(1) Elapsed Wtime:      19.315460 s ( 99.5% CPU)
+
+WARNING: Missing rank-0 breakdown line in data_ex_4_5/case_B_fixedN1000_P4_2x2_N1000/run.log
+----------------------------------------
+Case: part=B_fixedN1000, P=8 (2x4), grid=1000x1000
+Dir:  data_ex_4_5/case_B_fixedN1000_P8_2x4_N1000
+----------------------------------------
+Generating GridDist...
+Writing file 0 1 2 3 4 5 6 7 map
+
+Running MPI_Fempois...
+(1) Time Breakdown: Calc: 9.5463s | Exchange: 0.0257s | Global: 0.0091s | Idle: 1.4553s
+(1) Elapsed Wtime:      11.387750 s ( 99.3% CPU)
+(2) Time Breakdown: Calc: 9.5926s | Exchange: 0.0402s | Global: 0.0086s | Idle: 1.4129s
+(2) Elapsed Wtime:      11.385032 s ( 99.5% CPU)
+(7) Time Breakdown: Calc: 9.5168s | Exchange: 0.0820s | Global: 0.0086s | Idle: 1.4298s
+(7) Elapsed Wtime:      11.387144 s ( 99.3% CPU)
+(0) Time Breakdown: Calc: 9.5452s | Exchange: 0.0154s | Global: 0.0088s | Idle: 1.4868s
+Number of iterations : 1241
+(0) Elapsed Wtime:      11.387029 s ( 99.5% CPU)
+(6) Time Breakdown: Calc: 10.2289s | Exchange: 0.0832s | Global: 0.0087s | Idle: 0.7150s
+(6) Elapsed Wtime:      11.389116 s ( 99.3% CPU)
+(3) Time Breakdown: Calc: 9.5798s | Exchange: 0.0498s | Global: 0.0085s | Idle: 1.4169s
+(3) Elapsed Wtime:      11.386969 s ( 99.5% CPU)
+(4) Time Breakdown: Calc: 10.6012s | Exchange: 0.0641s | Global: 0.0090s | Idle: 0.3611s
+(4) Elapsed Wtime:      11.389262 s ( 99.3% CPU)
+(5) Time Breakdown: Calc: 9.5611s | Exchange: 0.0733s | Global: 0.0085s | Idle: 1.4121s
+(5) Elapsed Wtime:      11.401662 s ( 99.3% CPU)
+
+WARNING: Missing rank-0 breakdown line in data_ex_4_5/case_B_fixedN1000_P8_2x4_N1000/run.log
+----------------------------------------
+Case: part=B_fixedN1000, P=16 (4x4), grid=1000x1000
+Dir:  data_ex_4_5/case_B_fixedN1000_P16_4x4_N1000
+----------------------------------------
+Generating GridDist...
+Writing file 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 map
+
+Running MPI_Fempois...
+(15) Time Breakdown: Calc: 6.8472s | Exchange: 0.0957s | Global: 0.0120s | Idle: 0.4146s
+(15) Elapsed Wtime:       7.542527 s ( 99.3% CPU)
+(7) Time Breakdown: Calc: 4.7201s | Exchange: 0.0581s | Global: 0.0117s | Idle: 2.5798s
+(7) Elapsed Wtime:       7.542005 s ( 99.4% CPU)
+(3) Time Breakdown: Calc: 4.7835s | Exchange: 0.0337s | Global: 0.0112s | Idle: 2.5401s
+(3) Elapsed Wtime:       7.612863 s ( 98.5% CPU)
+(6) Time Breakdown: Calc: 6.9122s | Exchange: 0.0525s | Global: 0.0123s | Idle: 0.3679s
+(6) Elapsed Wtime:       7.613206 s ( 98.1% CPU)
+(9) Time Breakdown: Calc: 6.8957s | Exchange: 0.0690s | Global: 0.0119s | Idle: 0.3916s
+(9) Elapsed Wtime:       7.612206 s ( 98.4% CPU)
+(4) Time Breakdown: Calc: 6.8406s | Exchange: 0.0329s | Global: 0.0120s | Idle: 0.4821s
+(4) Elapsed Wtime:       7.613074 s ( 98.4% CPU)
+(12) Time Breakdown: Calc: 6.8409s | Exchange: 0.0827s | Global: 0.0122s | Idle: 0.4105s
+(12) Elapsed Wtime:       7.559082 s ( 98.7% CPU)
+(8) Time Breakdown: Calc: 6.8251s | Exchange: 0.0599s | Global: 0.0114s | Idle: 0.4489s
+(8) Elapsed Wtime:       7.543344 s ( 99.0% CPU)
+(11) Time Breakdown: Calc: 6.8809s | Exchange: 0.0845s | Global: 0.0118s | Idle: 0.3910s
+(11) Elapsed Wtime:       7.613073 s ( 98.1% CPU)
+(13) Time Breakdown: Calc: 6.8555s | Exchange: 0.0881s | Global: 0.0119s | Idle: 0.4002s
+(13) Elapsed Wtime:       7.542452 s ( 99.1% CPU)
+(1) Time Breakdown: Calc: 4.7669s | Exchange: 0.0192s | Global: 0.0115s | Idle: 2.5715s
+(1) Elapsed Wtime:       7.562784 s ( 99.1% CPU)
+(10) Time Breakdown: Calc: 6.8647s | Exchange: 0.0769s | Global: 0.0120s | Idle: 0.4140s
+(10) Elapsed Wtime:       7.587508 s ( 98.6% CPU)
+(14) Time Breakdown: Calc: 6.8866s | Exchange: 0.0956s | Global: 0.0125s | Idle: 0.3735s
+(14) Elapsed Wtime:       7.542602 s ( 99.2% CPU)
+(5) Time Breakdown: Calc: 4.8117s | Exchange: 0.0434s | Global: 0.0116s | Idle: 2.4790s
+(5) Elapsed Wtime:       7.540179 s ( 99.1% CPU)
+(0) Time Breakdown: Calc: 6.8599s | Exchange: 0.0127s | Global: 0.0113s | Idle: 0.4842s
+Number of iterations : 1241
+(0) Elapsed Wtime:       7.552325 s ( 98.5% CPU)
+(2) Time Breakdown: Calc: 6.8689s | Exchange: 0.0271s | Global: 0.0118s | Idle: 0.4597s
+(2) Elapsed Wtime:       7.624807 s ( 97.2% CPU)
+
+WARNING: Missing rank-0 breakdown line in data_ex_4_5/case_B_fixedN1000_P16_4x4_N1000/run.log
+==================================================
+Done.
+CSV: data_ex_4_5/ex4_5_measurements.csv
+TXT: data_ex_4_5/ex4_5_measurements.txt
+==================================================

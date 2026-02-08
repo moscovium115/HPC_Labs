@@ -1,0 +1,43 @@
+Compiling MPI_Poisson_1_2_10.c...
+Running Ratio Analysis (Strong Scaling Sweep)...
+------------------------------------------
+Testing Grid Size: 50 x 50
+  -> P=1: Calc=0.027094 s | Comm=0.000150 s | Ratio=0.0055
+  -> P=4: Calc=0.007040 s | Comm=0.002976 s | Ratio=0.4227
+  -> P=9: Calc=0.003069 s | Comm=0.008556 s | Ratio=2.7879
+  -> P=16: Calc=0.001827 s | Comm=0.006808 s | Ratio=3.7263
+  -> P=25: Calc=0.001339 s | Comm=0.006191 s | Ratio=4.6236
+  -> P=36: Calc=0.000959 s | Comm=0.007106 s | Ratio=7.4098
+------------------------------------------
+Testing Grid Size: 100 x 100
+  -> P=1: Calc=0.108565 s | Comm=0.000171 s | Ratio=0.0016
+  -> P=4: Calc=0.027180 s | Comm=0.003482 s | Ratio=0.1281
+  -> P=9: Calc=0.012151 s | Comm=0.005192 s | Ratio=0.4273
+  -> P=16: Calc=0.007062 s | Comm=0.008755 s | Ratio=1.2397
+  -> P=25: Calc=0.004633 s | Comm=0.007809 s | Ratio=1.6855
+  -> P=36: Calc=0.003151 s | Comm=0.008386 s | Ratio=2.6614
+------------------------------------------
+Testing Grid Size: 200 x 200
+  -> P=1: Calc=0.429576 s | Comm=0.000178 s | Ratio=0.0004
+  -> P=4: Calc=0.111411 s | Comm=0.005154 s | Ratio=0.0463
+  -> P=9: Calc=0.047577 s | Comm=0.008626 s | Ratio=0.1813
+  -> P=16: Calc=0.027526 s | Comm=0.012959 s | Ratio=0.4708
+  -> P=25: Calc=0.017759 s | Comm=0.008448 s | Ratio=0.4757
+  -> P=36: Calc=0.012492 s | Comm=0.009459 s | Ratio=0.7572
+------------------------------------------
+Testing Grid Size: 400 x 400
+  -> P=1: Calc=1.710677 s | Comm=0.000305 s | Ratio=0.0002
+  -> P=4: Calc=0.435818 s | Comm=0.006820 s | Ratio=0.0156
+  -> P=9: Calc=0.194153 s | Comm=0.012237 s | Ratio=0.0630
+  -> P=16: Calc=0.112049 s | Comm=0.009360 s | Ratio=0.0835
+  -> P=25: Calc=0.072030 s | Comm=0.010725 s | Ratio=0.1489
+  -> P=36: Calc=0.048603 s | Comm=0.012802 s | Ratio=0.2634
+------------------------------------------
+Testing Grid Size: 800 x 800
+  -> P=1: Calc=6.777478 s | Comm=0.000479 s | Ratio=0.0001
+  -> P=4: Calc=1.723486 s | Comm=0.031897 s | Ratio=0.0185
+  -> P=9: Calc=0.770393 s | Comm=0.029180 s | Ratio=0.0379
+  -> P=16: Calc=0.433175 s | Comm=0.022183 s | Ratio=0.0512
+  -> P=25: Calc=0.278373 s | Comm=0.029833 s | Ratio=0.1072
+  -> P=36: Calc=0.199734 s | Comm=0.019170 s | Ratio=0.0960
+Done. Results saved to data_ex_1_2_10/ratio_results.csv

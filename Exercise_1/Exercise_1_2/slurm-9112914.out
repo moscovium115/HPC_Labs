@@ -1,0 +1,13 @@
+Compiling MPI_Poisson_1_2_10.c...
+Running Ratio Analysis (Strong Scaling)...
+  -> Grid: 800 x 800 | Processes: 1 (1 x 1)
+  -> Grid: 800 x 800 | Processes: 2 (2 x 1)
+  -> Grid: 800 x 800 | Processes: 4 (4 x 1)
+  -> Grid: 800 x 800 | Processes: 8 (4 x 2)
+  -> Grid: 800 x 800 | Processes: 16 (4 x 4)
+  -> Grid: 2400 x 2400 | Processes: 1 (1 x 1)
+  -> Grid: 2400 x 2400 | Processes: 2 (2 x 1)
+  -> Grid: 2400 x 2400 | Processes: 4 (4 x 1)
+  -> Grid: 2400 x 2400 | Processes: 8 (4 x 2)
+  -> Grid: 2400 x 2400 | Processes: 16 (4 x 4)
+Done. Results saved to data_ex_1_2_10/ratio_results.csv
